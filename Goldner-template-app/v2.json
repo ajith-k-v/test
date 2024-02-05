@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-02-05T10:52:55.959Z",
           "editingVersion": {
-            "id": "3f7db03e-85eb-432b-991e-ced356d6b701",
-            "name": "v1",
+            "id": "4133313a-eb5c-4e23-b40f-c4202c4ec033",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -33,25 +33,68 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": true,
-            "homePageId": "a3127a49-2bb5-4ff7-a4f3-b0e357236212",
+            "homePageId": "ba75bbb5-0998-44aa-93f9-0501b264d0eb",
             "appId": "4de52b69-a236-49e1-b27c-a43618b3fb90",
             "currentEnvironmentId": "f86d97b2-5dad-48fc-8da6-10bedf24636a",
             "promotedFrom": null,
-            "createdAt": "2024-02-05T10:52:55.974Z",
-            "updatedAt": "2024-02-05T10:52:55.959Z"
+            "createdAt": "2024-02-05T10:53:12.467Z",
+            "updatedAt": "2024-02-05T10:53:12.457Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "4053ab65-995c-49c1-802f-c7639575ad91",
+              "name": "melissa",
+              "type": "Text",
+              "pageId": "ba75bbb5-0998-44aa-93f9-0501b264d0eb",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-02-05T10:53:12.457Z",
+              "updatedAt": "2024-02-05T10:53:12.457Z",
+              "layouts": [
+                {
+                  "id": "e8ecdfe7-c4d6-40f3-8197-901aedf9583c",
+                  "type": "desktop",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 30,
+                  "componentId": "4053ab65-995c-49c1-802f-c7639575ad91"
+                },
+                {
+                  "id": "67520c4f-214f-492c-9352-a216af26fc44",
+                  "type": "mobile",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 30,
+                  "componentId": "4053ab65-995c-49c1-802f-c7639575ad91"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
-              "id": "a3127a49-2bb5-4ff7-a4f3-b0e357236212",
+              "id": "ba75bbb5-0998-44aa-93f9-0501b264d0eb",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-02-05T10:52:55.959Z",
-              "updatedAt": "2024-02-05T10:52:55.959Z",
-              "appVersionId": "3f7db03e-85eb-432b-991e-ced356d6b701"
+              "createdAt": "2024-02-05T10:53:12.457Z",
+              "updatedAt": "2024-02-05T10:53:12.457Z",
+              "appVersionId": "4133313a-eb5c-4e23-b40f-c4202c4ec033"
             }
           ],
           "events": [],
@@ -59,8 +102,8 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "3f7db03e-85eb-432b-991e-ced356d6b701",
-              "name": "v1",
+              "id": "4133313a-eb5c-4e23-b40f-c4202c4ec033",
+              "name": "v2",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -72,12 +115,12 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": true,
-              "homePageId": "a3127a49-2bb5-4ff7-a4f3-b0e357236212",
+              "homePageId": "ba75bbb5-0998-44aa-93f9-0501b264d0eb",
               "appId": "4de52b69-a236-49e1-b27c-a43618b3fb90",
               "currentEnvironmentId": "f86d97b2-5dad-48fc-8da6-10bedf24636a",
               "promotedFrom": null,
-              "createdAt": "2024-02-05T10:52:55.974Z",
-              "updatedAt": "2024-02-05T10:52:55.959Z"
+              "createdAt": "2024-02-05T10:53:12.467Z",
+              "updatedAt": "2024-02-05T10:53:12.457Z"
             }
           ],
           "appEnvironments": [
