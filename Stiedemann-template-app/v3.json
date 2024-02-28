@@ -4,23 +4,23 @@
     {
       "definition": {
         "appV2": {
-          "id": "5eee2c31-b8cf-47cb-a150-3adb38c72a44",
+          "id": "183a23b7-08bb-4ca8-b047-24c942b41be7",
           "type": "front-end",
           "name": "Stiedemann-template-app",
-          "slug": "5eee2c31-b8cf-47cb-a150-3adb38c72a44",
-          "isPublic": null,
+          "slug": "183a23b7-08bb-4ca8-b047-24c942b41be7",
+          "isPublic": false,
           "isMaintenanceOn": false,
           "icon": "home",
-          "organizationId": "a8615f9c-b975-463e-9798-bb6ad1f3ed88",
+          "organizationId": "64154125-1e65-49ce-a74f-086b2774671c",
           "currentVersionId": null,
           "userId": "62c17b3e-d19e-4af6-920c-8a3ad69a3138",
           "workflowApiToken": null,
           "workflowEnabled": false,
-          "createdAt": "2024-02-28T12:00:21.646Z",
-          "creationMode": "DEFAULT",
-          "updatedAt": "2024-02-28T12:00:21.646Z",
+          "createdAt": "2024-02-28T12:01:39.327Z",
+          "creationMode": "GIT",
+          "updatedAt": "2024-02-28T12:01:39.489Z",
           "editingVersion": {
-            "id": "17ef1114-b745-4786-afb8-4d264e40b22c",
+            "id": "25fbb499-9917-4650-8d27-8a84db1ca986",
             "name": "v3",
             "definition": null,
             "globalSettings": {
@@ -33,28 +33,28 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": true,
-            "homePageId": "92ae9d0a-332b-4584-b2a9-adebdbb64a85",
-            "appId": "5eee2c31-b8cf-47cb-a150-3adb38c72a44",
-            "currentEnvironmentId": "05ceacdd-497a-4dac-8733-415abad8c029",
+            "homePageId": "0af9550a-0ce9-44aa-a3fc-d44982abe007",
+            "appId": "183a23b7-08bb-4ca8-b047-24c942b41be7",
+            "currentEnvironmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
             "promotedFrom": null,
-            "createdAt": "2024-02-28T12:00:41.064Z",
-            "updatedAt": "2024-02-28T12:00:46.763Z"
+            "createdAt": "2024-02-28T12:01:39.389Z",
+            "updatedAt": "2024-02-28T12:01:49.360Z"
           },
           "components": [
             {
-              "id": "0863e8c9-bae1-4cda-838d-e53b53dc314a",
+              "id": "a4ee34df-ab5e-4d85-8958-4b5c91c7c5e1",
               "name": "veda",
               "type": "Text",
-              "pageId": "92ae9d0a-332b-4584-b2a9-adebdbb64a85",
+              "pageId": "0af9550a-0ce9-44aa-a3fc-d44982abe007",
               "parent": null,
               "properties": {
                 "text": {
                   "value": "Git sync testing"
                 }
               },
-              "general": null,
+              "general": {},
               "styles": {},
-              "generalStyles": null,
+              "generalStyles": {},
               "displayPreferences": {
                 "showOnDesktop": {
                   "value": "{{true}}"
@@ -64,49 +64,110 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-28T12:00:40.501Z",
-              "updatedAt": "2024-02-28T12:00:46.748Z",
+              "createdAt": "2024-02-28T12:01:39.394Z",
+              "updatedAt": "2024-02-28T12:01:39.394Z",
               "layouts": [
                 {
-                  "id": "9851ce58-85fa-414b-b980-6feddce633aa",
+                  "id": "bdb786d1-0f59-4fac-94ce-a6547d3d9768",
                   "type": "desktop",
                   "top": 240,
                   "left": 23.25581395348837,
                   "width": 6,
                   "height": 40,
-                  "componentId": "0863e8c9-bae1-4cda-838d-e53b53dc314a"
+                  "componentId": "a4ee34df-ab5e-4d85-8958-4b5c91c7c5e1"
                 },
                 {
-                  "id": "2c71f5b1-b563-4f70-aa93-adcc071582c2",
+                  "id": "24ba683d-772b-4bcc-b363-2616f0995342",
                   "type": "mobile",
                   "top": 240,
                   "left": 23.25581395348837,
                   "width": 6,
                   "height": 40,
-                  "componentId": "0863e8c9-bae1-4cda-838d-e53b53dc314a"
+                  "componentId": "a4ee34df-ab5e-4d85-8958-4b5c91c7c5e1"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "92ae9d0a-332b-4584-b2a9-adebdbb64a85",
+              "id": "0af9550a-0ce9-44aa-a3fc-d44982abe007",
               "name": "Home",
               "handle": "home",
               "index": 1,
-              "disabled": null,
-              "hidden": null,
-              "createdAt": "2024-02-28T12:00:40.501Z",
-              "updatedAt": "2024-02-28T12:00:40.501Z",
-              "appVersionId": "17ef1114-b745-4786-afb8-4d264e40b22c"
+              "disabled": false,
+              "hidden": false,
+              "createdAt": "2024-02-28T12:01:39.394Z",
+              "updatedAt": "2024-02-28T12:01:39.394Z",
+              "appVersionId": "25fbb499-9917-4650-8d27-8a84db1ca986"
             }
           ],
           "events": [],
           "dataQueries": [],
-          "dataSources": [],
+          "dataSources": [
+            {
+              "id": "6d034670-a541-428c-a141-4f2f42f611f3",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "25fbb499-9917-4650-8d27-8a84db1ca986",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-28T12:01:39.408Z",
+              "updatedAt": "2024-02-28T12:01:39.408Z"
+            },
+            {
+              "id": "824afc4c-fc81-4e22-aaae-bcf1b8683bbd",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "25fbb499-9917-4650-8d27-8a84db1ca986",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-28T12:01:39.429Z",
+              "updatedAt": "2024-02-28T12:01:39.429Z"
+            },
+            {
+              "id": "cccb253f-05cf-4915-9f1e-aec772f5c102",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "25fbb499-9917-4650-8d27-8a84db1ca986",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-28T12:01:39.435Z",
+              "updatedAt": "2024-02-28T12:01:39.435Z"
+            },
+            {
+              "id": "6699a744-4280-49d3-b0ea-6a60d97e62c6",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "25fbb499-9917-4650-8d27-8a84db1ca986",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-28T12:01:39.441Z",
+              "updatedAt": "2024-02-28T12:01:39.441Z"
+            },
+            {
+              "id": "270788b6-f4d2-4471-98ac-473067385fcd",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "25fbb499-9917-4650-8d27-8a84db1ca986",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-28T12:01:39.445Z",
+              "updatedAt": "2024-02-28T12:01:39.445Z"
+            }
+          ],
           "appVersions": [
             {
-              "id": "17ef1114-b745-4786-afb8-4d264e40b22c",
+              "id": "25fbb499-9917-4650-8d27-8a84db1ca986",
               "name": "v3",
               "definition": null,
               "globalSettings": {
@@ -119,47 +180,168 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": true,
-              "homePageId": "92ae9d0a-332b-4584-b2a9-adebdbb64a85",
-              "appId": "5eee2c31-b8cf-47cb-a150-3adb38c72a44",
-              "currentEnvironmentId": "05ceacdd-497a-4dac-8733-415abad8c029",
+              "homePageId": "0af9550a-0ce9-44aa-a3fc-d44982abe007",
+              "appId": "183a23b7-08bb-4ca8-b047-24c942b41be7",
+              "currentEnvironmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
               "promotedFrom": null,
-              "createdAt": "2024-02-28T12:00:41.064Z",
-              "updatedAt": "2024-02-28T12:00:46.763Z"
+              "createdAt": "2024-02-28T12:01:39.389Z",
+              "updatedAt": "2024-02-28T12:01:49.360Z"
             }
           ],
           "appEnvironments": [
             {
-              "id": "05ceacdd-497a-4dac-8733-415abad8c029",
-              "organizationId": "a8615f9c-b975-463e-9798-bb6ad1f3ed88",
+              "id": "8e737175-de82-4f28-9092-e189939e7d4f",
+              "organizationId": "64154125-1e65-49ce-a74f-086b2774671c",
               "name": "development",
               "isDefault": false,
               "priority": 1,
               "enabled": true,
-              "createdAt": "2024-02-28T07:16:34.670Z",
-              "updatedAt": "2024-02-28T07:16:34.670Z"
+              "createdAt": "2024-02-28T12:01:06.092Z",
+              "updatedAt": "2024-02-28T12:01:06.092Z"
             },
             {
-              "id": "3bb4dbae-6376-48ca-983a-b7c59d81fcfd",
-              "organizationId": "a8615f9c-b975-463e-9798-bb6ad1f3ed88",
+              "id": "f4cf9c20-8786-4121-8653-53bf2e737d31",
+              "organizationId": "64154125-1e65-49ce-a74f-086b2774671c",
               "name": "staging",
               "isDefault": false,
               "priority": 2,
               "enabled": true,
-              "createdAt": "2024-02-28T07:16:34.670Z",
-              "updatedAt": "2024-02-28T07:16:34.670Z"
+              "createdAt": "2024-02-28T12:01:06.092Z",
+              "updatedAt": "2024-02-28T12:01:06.092Z"
             },
             {
-              "id": "e1c3b893-8bda-4bac-ae27-6b9064114e50",
-              "organizationId": "a8615f9c-b975-463e-9798-bb6ad1f3ed88",
+              "id": "0686afab-45e6-47a2-a0ce-baf6593eefb5",
+              "organizationId": "64154125-1e65-49ce-a74f-086b2774671c",
               "name": "production",
               "isDefault": true,
               "priority": 3,
               "enabled": true,
-              "createdAt": "2024-02-28T07:16:34.670Z",
-              "updatedAt": "2024-02-28T07:16:34.670Z"
+              "createdAt": "2024-02-28T12:01:06.092Z",
+              "updatedAt": "2024-02-28T12:01:06.092Z"
             }
           ],
-          "dataSourceOptions": [],
+          "dataSourceOptions": [
+            {
+              "id": "80d2206f-ec88-481a-89d9-90671dca542c",
+              "dataSourceId": "6d034670-a541-428c-a141-4f2f42f611f3",
+              "environmentId": "8e737175-de82-4f28-9092-e189939e7d4f",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.416Z",
+              "updatedAt": "2024-02-28T12:01:39.416Z"
+            },
+            {
+              "id": "2ad229d7-533c-4eb7-915c-7280e16eb0d1",
+              "dataSourceId": "6d034670-a541-428c-a141-4f2f42f611f3",
+              "environmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.416Z",
+              "updatedAt": "2024-02-28T12:01:39.416Z"
+            },
+            {
+              "id": "49edd99b-96b8-4a6c-8637-d0ad4bdb3ae1",
+              "dataSourceId": "6d034670-a541-428c-a141-4f2f42f611f3",
+              "environmentId": "0686afab-45e6-47a2-a0ce-baf6593eefb5",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.416Z",
+              "updatedAt": "2024-02-28T12:01:39.416Z"
+            },
+            {
+              "id": "f33d479b-16dc-41a3-84ce-908cc11ff709",
+              "dataSourceId": "824afc4c-fc81-4e22-aaae-bcf1b8683bbd",
+              "environmentId": "8e737175-de82-4f28-9092-e189939e7d4f",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.433Z",
+              "updatedAt": "2024-02-28T12:01:39.433Z"
+            },
+            {
+              "id": "fe4a9a04-30d6-487c-8d45-c411732389e4",
+              "dataSourceId": "824afc4c-fc81-4e22-aaae-bcf1b8683bbd",
+              "environmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.433Z",
+              "updatedAt": "2024-02-28T12:01:39.433Z"
+            },
+            {
+              "id": "d79dc62c-8da2-4536-9631-08f46773c021",
+              "dataSourceId": "824afc4c-fc81-4e22-aaae-bcf1b8683bbd",
+              "environmentId": "0686afab-45e6-47a2-a0ce-baf6593eefb5",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.433Z",
+              "updatedAt": "2024-02-28T12:01:39.433Z"
+            },
+            {
+              "id": "b730f75a-5508-497e-91fc-4faf202a1220",
+              "dataSourceId": "cccb253f-05cf-4915-9f1e-aec772f5c102",
+              "environmentId": "8e737175-de82-4f28-9092-e189939e7d4f",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.440Z",
+              "updatedAt": "2024-02-28T12:01:39.440Z"
+            },
+            {
+              "id": "d2554ae5-4081-45ec-bff4-ce16fb137e0d",
+              "dataSourceId": "cccb253f-05cf-4915-9f1e-aec772f5c102",
+              "environmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.440Z",
+              "updatedAt": "2024-02-28T12:01:39.440Z"
+            },
+            {
+              "id": "a14ec570-4277-4e35-82bd-b22d0c4cfd2e",
+              "dataSourceId": "cccb253f-05cf-4915-9f1e-aec772f5c102",
+              "environmentId": "0686afab-45e6-47a2-a0ce-baf6593eefb5",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.440Z",
+              "updatedAt": "2024-02-28T12:01:39.440Z"
+            },
+            {
+              "id": "e78c5b6d-b137-4e56-812c-676f4085f2a6",
+              "dataSourceId": "6699a744-4280-49d3-b0ea-6a60d97e62c6",
+              "environmentId": "8e737175-de82-4f28-9092-e189939e7d4f",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.444Z",
+              "updatedAt": "2024-02-28T12:01:39.444Z"
+            },
+            {
+              "id": "915f4338-aba1-4227-b0e7-cb395a42d4f2",
+              "dataSourceId": "6699a744-4280-49d3-b0ea-6a60d97e62c6",
+              "environmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.444Z",
+              "updatedAt": "2024-02-28T12:01:39.444Z"
+            },
+            {
+              "id": "f9790e5c-b5dd-4c01-be9b-08aa661e43f8",
+              "dataSourceId": "6699a744-4280-49d3-b0ea-6a60d97e62c6",
+              "environmentId": "0686afab-45e6-47a2-a0ce-baf6593eefb5",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.444Z",
+              "updatedAt": "2024-02-28T12:01:39.444Z"
+            },
+            {
+              "id": "09d94f27-c931-4fbe-aad6-1d074fd685ec",
+              "dataSourceId": "270788b6-f4d2-4471-98ac-473067385fcd",
+              "environmentId": "8e737175-de82-4f28-9092-e189939e7d4f",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.448Z",
+              "updatedAt": "2024-02-28T12:01:39.448Z"
+            },
+            {
+              "id": "9dbd0f32-427a-432a-b7d0-4948b9785650",
+              "dataSourceId": "270788b6-f4d2-4471-98ac-473067385fcd",
+              "environmentId": "f4cf9c20-8786-4121-8653-53bf2e737d31",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.448Z",
+              "updatedAt": "2024-02-28T12:01:39.448Z"
+            },
+            {
+              "id": "518e0ede-6cb7-43db-b431-1b54b8a09e74",
+              "dataSourceId": "270788b6-f4d2-4471-98ac-473067385fcd",
+              "environmentId": "0686afab-45e6-47a2-a0ce-baf6593eefb5",
+              "options": null,
+              "createdAt": "2024-02-28T12:01:39.448Z",
+              "updatedAt": "2024-02-28T12:01:39.448Z"
+            }
+          ],
           "schemaDetails": {
             "multiPages": true,
             "multiEnv": true,
