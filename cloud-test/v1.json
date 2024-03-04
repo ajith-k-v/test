@@ -38,7 +38,7 @@
             "currentEnvironmentId": "46f7a4bc-0409-4c99-a578-a4051e6740c2",
             "promotedFrom": null,
             "createdAt": "2024-03-04T12:05:38.918Z",
-            "updatedAt": "2024-03-04T12:05:46.138Z"
+            "updatedAt": "2024-03-04T12:13:01.998Z"
           },
           "components": [
             {
@@ -47,9 +47,17 @@
               "type": "TextInput",
               "pageId": "ac1466e4-2a1c-4bb8-aa40-07555cde71c6",
               "parent": null,
-              "properties": {},
+              "properties": {
+                "label": {
+                  "value": "Text input"
+                }
+              },
               "general": null,
-              "styles": {},
+              "styles": {
+                "boxShadow": {
+                  "value": "2px 12px 20px 11px #e81d1d40"
+                }
+              },
               "generalStyles": null,
               "displayPreferences": {
                 "showOnDesktop": {
@@ -61,17 +69,8 @@
               },
               "validation": {},
               "createdAt": "2024-03-04T12:05:46.128Z",
-              "updatedAt": "2024-03-04T12:05:46.128Z",
+              "updatedAt": "2024-03-04T12:12:15.003Z",
               "layouts": [
-                {
-                  "id": "41817f09-682e-4c74-a91a-d2e236062f3b",
-                  "type": "desktop",
-                  "top": 130,
-                  "left": 11.627906976744185,
-                  "width": 10,
-                  "height": 40,
-                  "componentId": "557d8d87-0dcf-4984-8dec-40d36466cd90"
-                },
                 {
                   "id": "ea1f27cd-1490-4931-89fa-e67b3d1e1ad7",
                   "type": "mobile",
@@ -80,6 +79,115 @@
                   "width": 10,
                   "height": 40,
                   "componentId": "557d8d87-0dcf-4984-8dec-40d36466cd90"
+                },
+                {
+                  "id": "41817f09-682e-4c74-a91a-d2e236062f3b",
+                  "type": "desktop",
+                  "top": 130,
+                  "left": 11.628498921867545,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "557d8d87-0dcf-4984-8dec-40d36466cd90"
+                }
+              ]
+            },
+            {
+              "id": "f66ec930-a42a-423e-a738-66094c601464",
+              "name": "numberinput1",
+              "type": "NumberInput",
+              "pageId": "ac1466e4-2a1c-4bb8-aa40-07555cde71c6",
+              "parent": null,
+              "properties": {
+                "label": {
+                  "value": "Number Label"
+                }
+              },
+              "general": null,
+              "styles": {
+                "backgroundColor": {
+                  "value": "#db0b0bff"
+                }
+              },
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-03-04T12:12:19.363Z",
+              "updatedAt": "2024-03-04T12:12:39.154Z",
+              "layouts": [
+                {
+                  "id": "06f83735-091d-4631-b842-603450ae0074",
+                  "type": "desktop",
+                  "top": 80,
+                  "left": 53.48837209302326,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "f66ec930-a42a-423e-a738-66094c601464"
+                },
+                {
+                  "id": "b96fbdbb-c8dd-4812-bf43-fd693c2ad91f",
+                  "type": "mobile",
+                  "top": 80,
+                  "left": 53.48837209302326,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "f66ec930-a42a-423e-a738-66094c601464"
+                }
+              ]
+            },
+            {
+              "id": "e26a377c-302c-4741-a348-a6a75cb37a94",
+              "name": "passwordinput1",
+              "type": "PasswordInput",
+              "pageId": "ac1466e4-2a1c-4bb8-aa40-07555cde71c6",
+              "parent": null,
+              "properties": {
+                "label": {
+                  "value": "password label"
+                }
+              },
+              "general": null,
+              "styles": {
+                "backgroundColor": {
+                  "value": "#000000ff"
+                }
+              },
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-03-04T12:12:44.424Z",
+              "updatedAt": "2024-03-04T12:13:01.995Z",
+              "layouts": [
+                {
+                  "id": "cdf817b4-0582-4dc7-8037-68087ccb888d",
+                  "type": "desktop",
+                  "top": 370,
+                  "left": 53.48837209302326,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "e26a377c-302c-4741-a348-a6a75cb37a94"
+                },
+                {
+                  "id": "73f5e96a-af96-4c4b-935a-61d5d3e0f1a3",
+                  "type": "mobile",
+                  "top": 370,
+                  "left": 53.48837209302326,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "e26a377c-302c-4741-a348-a6a75cb37a94"
                 }
               ]
             }
@@ -120,7 +228,7 @@
               "currentEnvironmentId": "46f7a4bc-0409-4c99-a578-a4051e6740c2",
               "promotedFrom": null,
               "createdAt": "2024-03-04T12:05:38.918Z",
-              "updatedAt": "2024-03-04T12:05:46.138Z"
+              "updatedAt": "2024-03-04T12:13:01.998Z"
             }
           ],
           "appEnvironments": [
