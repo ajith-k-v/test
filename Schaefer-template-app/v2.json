@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-03-06T14:52:49.187Z",
           "editingVersion": {
-            "id": "c130aca8-fb5d-41ca-b09b-475e3c16b10d",
-            "name": "v1",
+            "id": "87cb7a51-5033-4eb6-999e-47ed4ffbdf75",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -33,25 +33,68 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": true,
-            "homePageId": "e42759b0-7fa8-4c8a-8ea5-6281ba209dbb",
+            "homePageId": "a4f534f3-16dc-4bfc-9475-d59662ed74f0",
             "appId": "c682c3e6-fd47-4da7-b02a-089a9c9f6b6e",
             "currentEnvironmentId": "92495904-e5e1-4353-a28d-5582840f31ca",
             "promotedFrom": null,
-            "createdAt": "2024-03-06T14:52:49.198Z",
-            "updatedAt": "2024-03-06T14:52:49.187Z"
+            "createdAt": "2024-03-06T14:53:04.244Z",
+            "updatedAt": "2024-03-06T14:53:04.232Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "98c12b59-591b-4f27-8b36-272e52292f70",
+              "name": "keyon",
+              "type": "Text",
+              "pageId": "a4f534f3-16dc-4bfc-9475-d59662ed74f0",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-03-06T14:53:04.232Z",
+              "updatedAt": "2024-03-06T14:53:04.232Z",
+              "layouts": [
+                {
+                  "id": "c48fda89-e170-4b8e-ad5b-457ed2a92e73",
+                  "type": "desktop",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "98c12b59-591b-4f27-8b36-272e52292f70"
+                },
+                {
+                  "id": "1f716515-8157-4ad5-8c0b-6c3051fa7da8",
+                  "type": "mobile",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "98c12b59-591b-4f27-8b36-272e52292f70"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
-              "id": "e42759b0-7fa8-4c8a-8ea5-6281ba209dbb",
+              "id": "a4f534f3-16dc-4bfc-9475-d59662ed74f0",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-03-06T14:52:49.187Z",
-              "updatedAt": "2024-03-06T14:52:49.187Z",
-              "appVersionId": "c130aca8-fb5d-41ca-b09b-475e3c16b10d"
+              "createdAt": "2024-03-06T14:53:04.232Z",
+              "updatedAt": "2024-03-06T14:53:04.232Z",
+              "appVersionId": "87cb7a51-5033-4eb6-999e-47ed4ffbdf75"
             }
           ],
           "events": [],
@@ -59,8 +102,8 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "c130aca8-fb5d-41ca-b09b-475e3c16b10d",
-              "name": "v1",
+              "id": "87cb7a51-5033-4eb6-999e-47ed4ffbdf75",
+              "name": "v2",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -72,12 +115,12 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": true,
-              "homePageId": "e42759b0-7fa8-4c8a-8ea5-6281ba209dbb",
+              "homePageId": "a4f534f3-16dc-4bfc-9475-d59662ed74f0",
               "appId": "c682c3e6-fd47-4da7-b02a-089a9c9f6b6e",
               "currentEnvironmentId": "92495904-e5e1-4353-a28d-5582840f31ca",
               "promotedFrom": null,
-              "createdAt": "2024-03-06T14:52:49.198Z",
-              "updatedAt": "2024-03-06T14:52:49.187Z"
+              "createdAt": "2024-03-06T14:53:04.244Z",
+              "updatedAt": "2024-03-06T14:53:04.232Z"
             }
           ],
           "appEnvironments": [
