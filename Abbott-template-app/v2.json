@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-03-08T06:31:11.932Z",
           "editingVersion": {
-            "id": "886f30f9-710f-41d1-a9a0-385324bd930b",
-            "name": "v1",
+            "id": "7aa698ae-393d-480d-9344-77929ed1e980",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -33,25 +33,68 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": true,
-            "homePageId": "8e1a0280-3dfd-46fc-9caa-d0600a77c647",
+            "homePageId": "4e2c804d-4064-419e-925b-98a6960129f3",
             "appId": "34aafc92-e9bb-45eb-83e8-b3f90324a6ef",
             "currentEnvironmentId": "687292ae-4c5d-4490-8202-15f52a947eb0",
             "promotedFrom": null,
-            "createdAt": "2024-03-08T06:31:11.940Z",
-            "updatedAt": "2024-03-08T06:31:11.932Z"
+            "createdAt": "2024-03-08T06:31:26.977Z",
+            "updatedAt": "2024-03-08T06:31:26.967Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "c26aa13d-f7fa-4f19-96c4-a844e389f687",
+              "name": "whitney",
+              "type": "Text",
+              "pageId": "4e2c804d-4064-419e-925b-98a6960129f3",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-03-08T06:31:26.967Z",
+              "updatedAt": "2024-03-08T06:31:26.967Z",
+              "layouts": [
+                {
+                  "id": "718b3f37-da15-43e4-840c-f51f2021bea1",
+                  "type": "desktop",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "c26aa13d-f7fa-4f19-96c4-a844e389f687"
+                },
+                {
+                  "id": "5616d568-74de-497c-9411-ebb85a39176c",
+                  "type": "mobile",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "c26aa13d-f7fa-4f19-96c4-a844e389f687"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
-              "id": "8e1a0280-3dfd-46fc-9caa-d0600a77c647",
+              "id": "4e2c804d-4064-419e-925b-98a6960129f3",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-03-08T06:31:11.932Z",
-              "updatedAt": "2024-03-08T06:31:11.932Z",
-              "appVersionId": "886f30f9-710f-41d1-a9a0-385324bd930b"
+              "createdAt": "2024-03-08T06:31:26.967Z",
+              "updatedAt": "2024-03-08T06:31:26.967Z",
+              "appVersionId": "7aa698ae-393d-480d-9344-77929ed1e980"
             }
           ],
           "events": [],
@@ -59,8 +102,8 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "886f30f9-710f-41d1-a9a0-385324bd930b",
-              "name": "v1",
+              "id": "7aa698ae-393d-480d-9344-77929ed1e980",
+              "name": "v2",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -72,12 +115,12 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": true,
-              "homePageId": "8e1a0280-3dfd-46fc-9caa-d0600a77c647",
+              "homePageId": "4e2c804d-4064-419e-925b-98a6960129f3",
               "appId": "34aafc92-e9bb-45eb-83e8-b3f90324a6ef",
               "currentEnvironmentId": "687292ae-4c5d-4490-8202-15f52a947eb0",
               "promotedFrom": null,
-              "createdAt": "2024-03-08T06:31:11.940Z",
-              "updatedAt": "2024-03-08T06:31:11.932Z"
+              "createdAt": "2024-03-08T06:31:26.977Z",
+              "updatedAt": "2024-03-08T06:31:26.967Z"
             }
           ],
           "appEnvironments": [
