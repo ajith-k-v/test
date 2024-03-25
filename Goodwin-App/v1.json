@@ -1,0 +1,314 @@
+{
+  "tooljet_database": [],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "1982dc10-cdc4-49ce-b43f-8386b09d4df7",
+          "type": "front-end",
+          "name": "Goodwin-App",
+          "slug": "1982dc10-cdc4-49ce-b43f-8386b09d4df7",
+          "isPublic": null,
+          "isMaintenanceOn": false,
+          "icon": null,
+          "organizationId": "d0d39fa6-c0ae-46fe-957a-0c59421ed92b",
+          "currentVersionId": null,
+          "userId": "6bc31509-b6be-424a-8202-76277d46a8dc",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2024-03-25T15:31:03.480Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2024-03-25T15:31:03.479Z",
+          "editingVersion": {
+            "id": "0fe44740-fa9b-4f47-9eee-47b49a4bd911",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": ""
+            },
+            "showViewerNavigation": true,
+            "homePageId": "69927600-d43f-461f-840d-0b06546afd44",
+            "appId": "1982dc10-cdc4-49ce-b43f-8386b09d4df7",
+            "currentEnvironmentId": "309f2aeb-87db-4e41-8157-03b52c26e63b",
+            "promotedFrom": null,
+            "createdAt": "2024-03-25T15:31:03.510Z",
+            "updatedAt": "2024-03-25T15:31:53.555Z"
+          },
+          "components": [
+            {
+              "id": "784c595b-f181-46b7-808a-cc908a2d5b9d",
+              "name": "rod",
+              "type": "Text",
+              "pageId": "69927600-d43f-461f-840d-0b06546afd44",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "{{queries.table_preview.data[0].envname}}"
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-03-25T15:31:40.248Z",
+              "updatedAt": "2024-03-25T15:31:50.294Z",
+              "layouts": [
+                {
+                  "id": "9e812d54-19f9-4346-9dc2-38e0a13684a9",
+                  "type": "desktop",
+                  "top": 640,
+                  "left": 46.51162790697674,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "784c595b-f181-46b7-808a-cc908a2d5b9d"
+                },
+                {
+                  "id": "4776b7b9-0fc5-4351-96ab-9697f39ebb1b",
+                  "type": "mobile",
+                  "top": 640,
+                  "left": 46.51162790697674,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "784c595b-f181-46b7-808a-cc908a2d5b9d"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "69927600-d43f-461f-840d-0b06546afd44",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "createdAt": "2024-03-25T15:31:03.479Z",
+              "updatedAt": "2024-03-25T15:31:03.479Z",
+              "appVersionId": "0fe44740-fa9b-4f47-9eee-47b49a4bd911"
+            }
+          ],
+          "events": [],
+          "dataQueries": [
+            {
+              "id": "aceeb1df-9439-4358-8242-5ffe33d94324",
+              "name": "table_preview",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "SELECT * FROM tooljet;",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "11ac106f-bd95-44ed-ae6a-eb69c6a8b211",
+              "appVersionId": "0fe44740-fa9b-4f47-9eee-47b49a4bd911",
+              "createdAt": "2024-03-25T15:31:18.271Z",
+              "updatedAt": "2024-03-25T15:31:51.373Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "11ac106f-bd95-44ed-ae6a-eb69c6a8b211",
+              "name": "rupert",
+              "kind": "postgresql",
+              "type": "default",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "d0d39fa6-c0ae-46fe-957a-0c59421ed92b",
+              "scope": "global",
+              "createdAt": "2024-03-25T15:30:20.284Z",
+              "updatedAt": "2024-03-25T15:31:01.872Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "0fe44740-fa9b-4f47-9eee-47b49a4bd911",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": ""
+              },
+              "showViewerNavigation": true,
+              "homePageId": "69927600-d43f-461f-840d-0b06546afd44",
+              "appId": "1982dc10-cdc4-49ce-b43f-8386b09d4df7",
+              "currentEnvironmentId": "309f2aeb-87db-4e41-8157-03b52c26e63b",
+              "promotedFrom": null,
+              "createdAt": "2024-03-25T15:31:03.510Z",
+              "updatedAt": "2024-03-25T15:31:53.555Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "ad5b16de-2e98-416a-b7e9-09ce6b78fb09",
+              "organizationId": "d0d39fa6-c0ae-46fe-957a-0c59421ed92b",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-03-25T13:57:44.794Z",
+              "updatedAt": "2024-03-25T13:57:44.794Z"
+            },
+            {
+              "id": "309f2aeb-87db-4e41-8157-03b52c26e63b",
+              "organizationId": "d0d39fa6-c0ae-46fe-957a-0c59421ed92b",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-03-25T13:57:44.794Z",
+              "updatedAt": "2024-03-25T13:57:44.794Z"
+            },
+            {
+              "id": "0ace0c57-397a-4029-8243-9ce76678a4d0",
+              "organizationId": "d0d39fa6-c0ae-46fe-957a-0c59421ed92b",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-03-25T13:57:44.794Z",
+              "updatedAt": "2024-03-25T13:57:44.794Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "aacf51c9-147a-4e27-8239-b7e2f4470fe3",
+              "dataSourceId": "11ac106f-bd95-44ed-ae6a-eb69c6a8b211",
+              "environmentId": "ad5b16de-2e98-416a-b7e9-09ce6b78fb09",
+              "options": {
+                "host": {
+                  "value": "35.202.183.199",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "database": {
+                  "value": "{{constants.destany}}",
+                  "encrypted": false
+                },
+                "username": {
+                  "value": "postgres",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "1ee41561-3860-4378-9dcd-1855e1526ec0",
+                  "encrypted": true
+                },
+                "ssl_enabled": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-03-25T15:30:20.296Z",
+              "updatedAt": "2024-03-25T15:30:49.313Z"
+            },
+            {
+              "id": "c0c9d9de-74d3-40eb-8e6a-e76696302e25",
+              "dataSourceId": "11ac106f-bd95-44ed-ae6a-eb69c6a8b211",
+              "environmentId": "309f2aeb-87db-4e41-8157-03b52c26e63b",
+              "options": {
+                "host": {
+                  "value": "35.202.183.199",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "database": {
+                  "value": "{{constants.destany}}",
+                  "encrypted": false
+                },
+                "username": {
+                  "value": "postgres",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "54c271ee-c844-4acc-957c-4cb0b3e0e226",
+                  "encrypted": true
+                },
+                "ssl_enabled": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-03-25T15:30:20.296Z",
+              "updatedAt": "2024-03-25T15:30:55.514Z"
+            },
+            {
+              "id": "4f7b6fc9-d426-458c-a96a-515a2f881c20",
+              "dataSourceId": "11ac106f-bd95-44ed-ae6a-eb69c6a8b211",
+              "environmentId": "0ace0c57-397a-4029-8243-9ce76678a4d0",
+              "options": {
+                "host": {
+                  "value": "35.202.183.199",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "database": {
+                  "value": "{{constants.destany}}",
+                  "encrypted": false
+                },
+                "username": {
+                  "value": "postgres",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "ccda6d6f-ee52-40db-884e-af788e2a39d0",
+                  "encrypted": true
+                },
+                "ssl_enabled": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-03-25T15:30:20.296Z",
+              "updatedAt": "2024-03-25T15:31:01.871Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "2.33.4-ee2.15.17"
+}
