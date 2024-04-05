@@ -4,23 +4,23 @@
     {
       "definition": {
         "appV2": {
-          "id": "d2305614-866f-43e3-96a4-a186e162d7ca",
+          "id": "2f7276e6-461a-49a4-bfb2-61dc34df2dd9",
           "type": "front-end",
           "name": "Brekke-App",
-          "slug": "d2305614-866f-43e3-96a4-a186e162d7ca",
+          "slug": "2f7276e6-461a-49a4-bfb2-61dc34df2dd9",
           "isPublic": null,
           "isMaintenanceOn": false,
-          "icon": null,
-          "organizationId": "047fa59b-1cf2-482d-aa12-68b46cb1f28c",
+          "icon": "apps",
+          "organizationId": "7ab71b5e-ba1c-4ae1-b55e-19ac51f3f3a1",
           "currentVersionId": null,
-          "userId": "e730623a-d746-4e37-816e-1770546f793a",
+          "userId": "3617740a-9afe-4dfc-b5ff-bd1ae4b94055",
           "workflowApiToken": null,
           "workflowEnabled": false,
-          "createdAt": "2024-03-07T10:31:36.790Z",
+          "createdAt": "2024-04-05T09:51:25.233Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-03-07T10:31:36.790Z",
+          "updatedAt": "2024-04-05T09:51:25.232Z",
           "editingVersion": {
-            "id": "e0db97e3-50cc-4c9e-8155-e8567a1aa0f7",
+            "id": "f565a10c-5608-440a-a259-1f41bb384942",
             "name": "v1",
             "definition": null,
             "globalSettings": {
@@ -33,109 +33,33 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": true,
-            "homePageId": "2c8b2b05-7dd7-45eb-9eeb-02ca8fb417bb",
-            "appId": "d2305614-866f-43e3-96a4-a186e162d7ca",
-            "currentEnvironmentId": "6492e833-f968-4a53-8a77-e9fb809c73fb",
+            "homePageId": "942cca36-94e3-43ad-8e53-8e787ce38645",
+            "appId": "2f7276e6-461a-49a4-bfb2-61dc34df2dd9",
+            "currentEnvironmentId": "c5d46d09-2ed6-47a5-90ab-407edaa2435b",
             "promotedFrom": null,
-            "createdAt": "2024-03-07T10:31:36.796Z",
-            "updatedAt": "2024-03-07T10:32:31.533Z"
+            "createdAt": "2024-04-05T09:51:25.246Z",
+            "updatedAt": "2024-04-05T09:51:25.232Z"
           },
-          "components": [
-            {
-              "id": "5c90d9fe-ec28-4500-8f86-946155286a4f",
-              "name": "cali",
-              "type": "Text",
-              "pageId": "2c8b2b05-7dd7-45eb-9eeb-02ca8fb417bb",
-              "parent": null,
-              "properties": {
-                "text": {
-                  "value": "{{queries.table_preview.data[0].envname}}"
-                }
-              },
-              "general": null,
-              "styles": {},
-              "generalStyles": null,
-              "displayPreferences": {
-                "showOnDesktop": {
-                  "value": "{{true}}"
-                },
-                "showOnMobile": {
-                  "value": "{{false}}"
-                }
-              },
-              "validation": {},
-              "createdAt": "2024-03-07T10:32:13.451Z",
-              "updatedAt": "2024-03-07T10:32:27.595Z",
-              "layouts": [
-                {
-                  "id": "33405035-01f2-43d9-ba00-4ebe8f99e527",
-                  "type": "desktop",
-                  "top": 640,
-                  "left": 46.51162790697674,
-                  "width": 6,
-                  "height": 40,
-                  "componentId": "5c90d9fe-ec28-4500-8f86-946155286a4f"
-                },
-                {
-                  "id": "3b44da59-edd6-4be4-9aab-23bd77a930f2",
-                  "type": "mobile",
-                  "top": 640,
-                  "left": 46.51162790697674,
-                  "width": 6,
-                  "height": 40,
-                  "componentId": "5c90d9fe-ec28-4500-8f86-946155286a4f"
-                }
-              ]
-            }
-          ],
+          "components": [],
           "pages": [
             {
-              "id": "2c8b2b05-7dd7-45eb-9eeb-02ca8fb417bb",
+              "id": "942cca36-94e3-43ad-8e53-8e787ce38645",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-03-07T10:31:36.790Z",
-              "updatedAt": "2024-03-07T10:31:36.790Z",
-              "appVersionId": "e0db97e3-50cc-4c9e-8155-e8567a1aa0f7"
+              "createdAt": "2024-04-05T09:51:25.232Z",
+              "updatedAt": "2024-04-05T09:51:25.232Z",
+              "appVersionId": "f565a10c-5608-440a-a259-1f41bb384942"
             }
           ],
           "events": [],
-          "dataQueries": [
-            {
-              "id": "83c0a7d8-deb5-4fb4-9d56-b70ee343bb28",
-              "name": "table_preview",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": false,
-                "query": "SELECT * FROM tooljet;",
-                "runOnPageLoad": true
-              },
-              "dataSourceId": "f7edcc9c-9c31-4c1a-9211-2970754557e4",
-              "appVersionId": "e0db97e3-50cc-4c9e-8155-e8567a1aa0f7",
-              "createdAt": "2024-03-07T10:31:50.441Z",
-              "updatedAt": "2024-03-07T10:32:28.932Z"
-            }
-          ],
-          "dataSources": [
-            {
-              "id": "f7edcc9c-9c31-4c1a-9211-2970754557e4",
-              "name": "jules",
-              "kind": "postgresql",
-              "type": "default",
-              "pluginId": null,
-              "appVersionId": null,
-              "organizationId": "047fa59b-1cf2-482d-aa12-68b46cb1f28c",
-              "scope": "global",
-              "createdAt": "2024-03-07T10:30:47.826Z",
-              "updatedAt": "2024-03-07T10:31:36.046Z"
-            }
-          ],
+          "dataQueries": [],
+          "dataSources": [],
           "appVersions": [
             {
-              "id": "e0db97e3-50cc-4c9e-8155-e8567a1aa0f7",
+              "id": "f565a10c-5608-440a-a259-1f41bb384942",
               "name": "v1",
               "definition": null,
               "globalSettings": {
@@ -148,159 +72,47 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": true,
-              "homePageId": "2c8b2b05-7dd7-45eb-9eeb-02ca8fb417bb",
-              "appId": "d2305614-866f-43e3-96a4-a186e162d7ca",
-              "currentEnvironmentId": "6492e833-f968-4a53-8a77-e9fb809c73fb",
+              "homePageId": "942cca36-94e3-43ad-8e53-8e787ce38645",
+              "appId": "2f7276e6-461a-49a4-bfb2-61dc34df2dd9",
+              "currentEnvironmentId": "c5d46d09-2ed6-47a5-90ab-407edaa2435b",
               "promotedFrom": null,
-              "createdAt": "2024-03-07T10:31:36.796Z",
-              "updatedAt": "2024-03-07T10:32:31.533Z"
+              "createdAt": "2024-04-05T09:51:25.246Z",
+              "updatedAt": "2024-04-05T09:51:25.232Z"
             }
           ],
           "appEnvironments": [
             {
-              "id": "e2910bfe-fc0d-42e8-a2ff-31e1cb9a815d",
-              "organizationId": "047fa59b-1cf2-482d-aa12-68b46cb1f28c",
+              "id": "c5d46d09-2ed6-47a5-90ab-407edaa2435b",
+              "organizationId": "7ab71b5e-ba1c-4ae1-b55e-19ac51f3f3a1",
               "name": "development",
               "isDefault": false,
               "priority": 1,
               "enabled": true,
-              "createdAt": "2024-03-07T08:49:19.473Z",
-              "updatedAt": "2024-03-07T08:49:19.473Z"
+              "createdAt": "2024-04-05T08:19:52.630Z",
+              "updatedAt": "2024-04-05T08:19:52.630Z"
             },
             {
-              "id": "6492e833-f968-4a53-8a77-e9fb809c73fb",
-              "organizationId": "047fa59b-1cf2-482d-aa12-68b46cb1f28c",
+              "id": "c1380a76-d7d7-450e-a50d-5ee0453e98cc",
+              "organizationId": "7ab71b5e-ba1c-4ae1-b55e-19ac51f3f3a1",
               "name": "staging",
               "isDefault": false,
               "priority": 2,
               "enabled": true,
-              "createdAt": "2024-03-07T08:49:19.473Z",
-              "updatedAt": "2024-03-07T08:49:19.473Z"
+              "createdAt": "2024-04-05T08:19:52.630Z",
+              "updatedAt": "2024-04-05T08:19:52.630Z"
             },
             {
-              "id": "9f12f9d2-9807-4ef5-8643-31d51582f882",
-              "organizationId": "047fa59b-1cf2-482d-aa12-68b46cb1f28c",
+              "id": "b2832826-a09c-4783-99e6-cc5a8607e581",
+              "organizationId": "7ab71b5e-ba1c-4ae1-b55e-19ac51f3f3a1",
               "name": "production",
               "isDefault": true,
               "priority": 3,
               "enabled": true,
-              "createdAt": "2024-03-07T08:49:19.473Z",
-              "updatedAt": "2024-03-07T08:49:19.473Z"
+              "createdAt": "2024-04-05T08:19:52.630Z",
+              "updatedAt": "2024-04-05T08:19:52.630Z"
             }
           ],
-          "dataSourceOptions": [
-            {
-              "id": "57c1d9bb-d89b-4524-8ab2-9c88b089acc9",
-              "dataSourceId": "f7edcc9c-9c31-4c1a-9211-2970754557e4",
-              "environmentId": "e2910bfe-fc0d-42e8-a2ff-31e1cb9a815d",
-              "options": {
-                "host": {
-                  "value": "35.202.183.199",
-                  "encrypted": false
-                },
-                "port": {
-                  "value": 5432,
-                  "encrypted": false
-                },
-                "database": {
-                  "value": "{{constants.alexander}}",
-                  "encrypted": false
-                },
-                "username": {
-                  "value": "postgres",
-                  "encrypted": false
-                },
-                "password": {
-                  "credential_id": "c1ba3093-ebb5-47fb-8e2f-27498647faa8",
-                  "encrypted": true
-                },
-                "ssl_enabled": {
-                  "value": false,
-                  "encrypted": false
-                },
-                "ssl_certificate": {
-                  "value": "none",
-                  "encrypted": false
-                }
-              },
-              "createdAt": "2024-03-07T10:30:47.832Z",
-              "updatedAt": "2024-03-07T10:31:20.275Z"
-            },
-            {
-              "id": "16a71c84-f72a-42fa-bc9a-7db93fff710b",
-              "dataSourceId": "f7edcc9c-9c31-4c1a-9211-2970754557e4",
-              "environmentId": "6492e833-f968-4a53-8a77-e9fb809c73fb",
-              "options": {
-                "host": {
-                  "value": "35.202.183.199",
-                  "encrypted": false
-                },
-                "port": {
-                  "value": 5432,
-                  "encrypted": false
-                },
-                "database": {
-                  "value": "{{constants.alexander}}",
-                  "encrypted": false
-                },
-                "username": {
-                  "value": "postgres",
-                  "encrypted": false
-                },
-                "password": {
-                  "credential_id": "22605ce1-8b23-427e-88b6-c6c243f99458",
-                  "encrypted": true
-                },
-                "ssl_enabled": {
-                  "value": false,
-                  "encrypted": false
-                },
-                "ssl_certificate": {
-                  "value": "none",
-                  "encrypted": false
-                }
-              },
-              "createdAt": "2024-03-07T10:30:47.832Z",
-              "updatedAt": "2024-03-07T10:31:28.621Z"
-            },
-            {
-              "id": "247077d6-83a1-429a-b74c-4d5701982d63",
-              "dataSourceId": "f7edcc9c-9c31-4c1a-9211-2970754557e4",
-              "environmentId": "9f12f9d2-9807-4ef5-8643-31d51582f882",
-              "options": {
-                "host": {
-                  "value": "35.202.183.199",
-                  "encrypted": false
-                },
-                "port": {
-                  "value": 5432,
-                  "encrypted": false
-                },
-                "database": {
-                  "value": "{{constants.alexander}}",
-                  "encrypted": false
-                },
-                "username": {
-                  "value": "postgres",
-                  "encrypted": false
-                },
-                "password": {
-                  "credential_id": "7fccf40d-9197-4a69-a76a-bf071746f515",
-                  "encrypted": true
-                },
-                "ssl_enabled": {
-                  "value": false,
-                  "encrypted": false
-                },
-                "ssl_certificate": {
-                  "value": "none",
-                  "encrypted": false
-                }
-              },
-              "createdAt": "2024-03-07T10:30:47.832Z",
-              "updatedAt": "2024-03-07T10:31:36.045Z"
-            }
-          ],
+          "dataSourceOptions": [],
           "schemaDetails": {
             "multiPages": true,
             "multiEnv": true,
@@ -310,5 +122,5 @@
       }
     }
   ],
-  "tooljet_version": "2.32.0-ee2.15.12"
+  "tooljet_version": "2.34.1-ee2.15.19"
 }
