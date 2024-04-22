@@ -4,23 +4,23 @@
     {
       "definition": {
         "appV2": {
-          "id": "179b00ad-c419-4a83-ba00-35196838669b",
+          "id": "0bb145c9-403c-4ef0-ac4a-ede2514001a0",
           "type": "front-end",
           "name": "Jerde-template-app",
-          "slug": "179b00ad-c419-4a83-ba00-35196838669b",
-          "isPublic": null,
+          "slug": "0bb145c9-403c-4ef0-ac4a-ede2514001a0",
+          "isPublic": false,
           "isMaintenanceOn": false,
           "icon": "draghandle",
-          "organizationId": "d153bbd5-0005-4594-8ae7-b4c2da7ea4a2",
+          "organizationId": "1ad1152b-5b2b-43de-9075-ee51885335c6",
           "currentVersionId": null,
           "userId": "19cab035-d702-411d-89aa-114127eb0618",
           "workflowApiToken": null,
           "workflowEnabled": false,
-          "createdAt": "2024-04-22T08:22:45.048Z",
-          "creationMode": "DEFAULT",
-          "updatedAt": "2024-04-22T08:22:45.048Z",
+          "createdAt": "2024-04-22T08:24:10.439Z",
+          "creationMode": "GIT",
+          "updatedAt": "2024-04-22T08:24:10.544Z",
           "editingVersion": {
-            "id": "37f8f0fb-f047-4730-a79c-84dd822eaf21",
+            "id": "834653fe-47d9-46d4-9421-67febf80ce59",
             "name": "v3",
             "definition": null,
             "globalSettings": {
@@ -33,28 +33,28 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": true,
-            "homePageId": "211f732c-96a8-4ac1-97d3-98a2b7d02bab",
-            "appId": "179b00ad-c419-4a83-ba00-35196838669b",
-            "currentEnvironmentId": "df98ae7c-ff96-42ed-9dac-a889a08a9c11",
+            "homePageId": "c98288e2-badc-4369-ad69-6176797a6699",
+            "appId": "0bb145c9-403c-4ef0-ac4a-ede2514001a0",
+            "currentEnvironmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
             "promotedFrom": null,
-            "createdAt": "2024-04-22T08:23:12.541Z",
-            "updatedAt": "2024-04-22T08:23:21.188Z"
+            "createdAt": "2024-04-22T08:24:10.475Z",
+            "updatedAt": "2024-04-22T08:24:23.486Z"
           },
           "components": [
             {
-              "id": "7d0a4769-c28a-44bc-8b75-2d5bee8e4eaf",
+              "id": "50d020f6-4188-4d53-9de7-1cd4cb43eb5d",
               "name": "troy",
               "type": "Text",
-              "pageId": "211f732c-96a8-4ac1-97d3-98a2b7d02bab",
+              "pageId": "c98288e2-badc-4369-ad69-6176797a6699",
               "parent": null,
               "properties": {
                 "text": {
                   "value": "Git sync testing"
                 }
               },
-              "general": null,
+              "general": {},
               "styles": {},
-              "generalStyles": null,
+              "generalStyles": {},
               "displayPreferences": {
                 "showOnDesktop": {
                   "value": "{{true}}"
@@ -64,49 +64,110 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-04-22T08:23:12.532Z",
-              "updatedAt": "2024-04-22T08:23:21.183Z",
+              "createdAt": "2024-04-22T08:24:10.482Z",
+              "updatedAt": "2024-04-22T08:24:10.482Z",
               "layouts": [
                 {
-                  "id": "69d61f32-a2b8-49b6-97dc-0d4819e75758",
+                  "id": "e047fcb8-66ca-4bb4-80c6-8a102c44f812",
                   "type": "desktop",
                   "top": 240,
                   "left": 23.25581395348837,
                   "width": 6,
                   "height": 40,
-                  "componentId": "7d0a4769-c28a-44bc-8b75-2d5bee8e4eaf"
+                  "componentId": "50d020f6-4188-4d53-9de7-1cd4cb43eb5d"
                 },
                 {
-                  "id": "931b1ade-ab4c-490a-98c0-1853ad0b032a",
+                  "id": "d3b5506e-991b-49f6-8b16-6469f43cacd5",
                   "type": "mobile",
                   "top": 240,
                   "left": 23.25581395348837,
                   "width": 6,
                   "height": 40,
-                  "componentId": "7d0a4769-c28a-44bc-8b75-2d5bee8e4eaf"
+                  "componentId": "50d020f6-4188-4d53-9de7-1cd4cb43eb5d"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "211f732c-96a8-4ac1-97d3-98a2b7d02bab",
+              "id": "c98288e2-badc-4369-ad69-6176797a6699",
               "name": "Home",
               "handle": "home",
               "index": 1,
-              "disabled": null,
-              "hidden": null,
-              "createdAt": "2024-04-22T08:23:12.532Z",
-              "updatedAt": "2024-04-22T08:23:12.532Z",
-              "appVersionId": "37f8f0fb-f047-4730-a79c-84dd822eaf21"
+              "disabled": false,
+              "hidden": false,
+              "createdAt": "2024-04-22T08:24:10.482Z",
+              "updatedAt": "2024-04-22T08:24:10.482Z",
+              "appVersionId": "834653fe-47d9-46d4-9421-67febf80ce59"
             }
           ],
           "events": [],
           "dataQueries": [],
-          "dataSources": [],
+          "dataSources": [
+            {
+              "id": "8de54cdc-6295-434c-98d6-5871560d84f6",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "834653fe-47d9-46d4-9421-67febf80ce59",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-04-22T08:24:10.487Z",
+              "updatedAt": "2024-04-22T08:24:10.487Z"
+            },
+            {
+              "id": "84795658-956f-4a0b-adab-fc797311f018",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "834653fe-47d9-46d4-9421-67febf80ce59",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-04-22T08:24:10.493Z",
+              "updatedAt": "2024-04-22T08:24:10.493Z"
+            },
+            {
+              "id": "8095e802-4425-4053-87f7-0ea1acbee6d3",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "834653fe-47d9-46d4-9421-67febf80ce59",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-04-22T08:24:10.498Z",
+              "updatedAt": "2024-04-22T08:24:10.498Z"
+            },
+            {
+              "id": "2208afce-244b-430c-b2d8-670754a2b679",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "834653fe-47d9-46d4-9421-67febf80ce59",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-04-22T08:24:10.503Z",
+              "updatedAt": "2024-04-22T08:24:10.503Z"
+            },
+            {
+              "id": "3baa3bb7-92f6-4b25-b33c-4d2c775cb932",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "834653fe-47d9-46d4-9421-67febf80ce59",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-04-22T08:24:10.510Z",
+              "updatedAt": "2024-04-22T08:24:10.510Z"
+            }
+          ],
           "appVersions": [
             {
-              "id": "37f8f0fb-f047-4730-a79c-84dd822eaf21",
+              "id": "834653fe-47d9-46d4-9421-67febf80ce59",
               "name": "v3",
               "definition": null,
               "globalSettings": {
@@ -119,47 +180,168 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": true,
-              "homePageId": "211f732c-96a8-4ac1-97d3-98a2b7d02bab",
-              "appId": "179b00ad-c419-4a83-ba00-35196838669b",
-              "currentEnvironmentId": "df98ae7c-ff96-42ed-9dac-a889a08a9c11",
+              "homePageId": "c98288e2-badc-4369-ad69-6176797a6699",
+              "appId": "0bb145c9-403c-4ef0-ac4a-ede2514001a0",
+              "currentEnvironmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
               "promotedFrom": null,
-              "createdAt": "2024-04-22T08:23:12.541Z",
-              "updatedAt": "2024-04-22T08:23:21.188Z"
+              "createdAt": "2024-04-22T08:24:10.475Z",
+              "updatedAt": "2024-04-22T08:24:23.486Z"
             }
           ],
           "appEnvironments": [
             {
-              "id": "df98ae7c-ff96-42ed-9dac-a889a08a9c11",
-              "organizationId": "d153bbd5-0005-4594-8ae7-b4c2da7ea4a2",
+              "id": "bcb9ce3c-259d-4e04-9d4f-f776c5d9bf86",
+              "organizationId": "1ad1152b-5b2b-43de-9075-ee51885335c6",
               "name": "development",
               "isDefault": false,
               "priority": 1,
               "enabled": true,
-              "createdAt": "2024-04-22T06:42:43.961Z",
-              "updatedAt": "2024-04-22T06:42:43.961Z"
+              "createdAt": "2024-04-22T08:23:41.549Z",
+              "updatedAt": "2024-04-22T08:23:41.549Z"
             },
             {
-              "id": "38de5256-4b83-45a0-b271-7405384e825f",
-              "organizationId": "d153bbd5-0005-4594-8ae7-b4c2da7ea4a2",
+              "id": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
+              "organizationId": "1ad1152b-5b2b-43de-9075-ee51885335c6",
               "name": "staging",
               "isDefault": false,
               "priority": 2,
               "enabled": true,
-              "createdAt": "2024-04-22T06:42:43.961Z",
-              "updatedAt": "2024-04-22T06:42:43.961Z"
+              "createdAt": "2024-04-22T08:23:41.549Z",
+              "updatedAt": "2024-04-22T08:23:41.549Z"
             },
             {
-              "id": "dd345d17-6de5-4334-ab5e-323cd922b2cb",
-              "organizationId": "d153bbd5-0005-4594-8ae7-b4c2da7ea4a2",
+              "id": "dd83af10-f567-420b-b4b8-ba6ca8be6373",
+              "organizationId": "1ad1152b-5b2b-43de-9075-ee51885335c6",
               "name": "production",
               "isDefault": true,
               "priority": 3,
               "enabled": true,
-              "createdAt": "2024-04-22T06:42:43.961Z",
-              "updatedAt": "2024-04-22T06:42:43.961Z"
+              "createdAt": "2024-04-22T08:23:41.549Z",
+              "updatedAt": "2024-04-22T08:23:41.549Z"
             }
           ],
-          "dataSourceOptions": [],
+          "dataSourceOptions": [
+            {
+              "id": "37565edf-9e3d-490a-a660-039b021885e0",
+              "dataSourceId": "8de54cdc-6295-434c-98d6-5871560d84f6",
+              "environmentId": "bcb9ce3c-259d-4e04-9d4f-f776c5d9bf86",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.491Z",
+              "updatedAt": "2024-04-22T08:24:10.491Z"
+            },
+            {
+              "id": "8c155b5e-9ed3-4cc5-8463-88a28e5fc08e",
+              "dataSourceId": "8de54cdc-6295-434c-98d6-5871560d84f6",
+              "environmentId": "dd83af10-f567-420b-b4b8-ba6ca8be6373",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.491Z",
+              "updatedAt": "2024-04-22T08:24:10.491Z"
+            },
+            {
+              "id": "98e77a91-b7d0-4354-bae2-9c135e15f4c9",
+              "dataSourceId": "8de54cdc-6295-434c-98d6-5871560d84f6",
+              "environmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.491Z",
+              "updatedAt": "2024-04-22T08:24:10.491Z"
+            },
+            {
+              "id": "8dd70dee-2e4f-4e40-a196-eb7afd3f9942",
+              "dataSourceId": "84795658-956f-4a0b-adab-fc797311f018",
+              "environmentId": "dd83af10-f567-420b-b4b8-ba6ca8be6373",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.497Z",
+              "updatedAt": "2024-04-22T08:24:10.497Z"
+            },
+            {
+              "id": "32f81732-1d8d-4ff3-ab20-1c33669d6b6b",
+              "dataSourceId": "84795658-956f-4a0b-adab-fc797311f018",
+              "environmentId": "bcb9ce3c-259d-4e04-9d4f-f776c5d9bf86",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.497Z",
+              "updatedAt": "2024-04-22T08:24:10.497Z"
+            },
+            {
+              "id": "4c1b7ee3-ff1f-4169-bf03-cd7af3950eb6",
+              "dataSourceId": "84795658-956f-4a0b-adab-fc797311f018",
+              "environmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.497Z",
+              "updatedAt": "2024-04-22T08:24:10.497Z"
+            },
+            {
+              "id": "ca5d4cef-a2bf-4f83-a642-46f7e782c78e",
+              "dataSourceId": "8095e802-4425-4053-87f7-0ea1acbee6d3",
+              "environmentId": "bcb9ce3c-259d-4e04-9d4f-f776c5d9bf86",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.502Z",
+              "updatedAt": "2024-04-22T08:24:10.502Z"
+            },
+            {
+              "id": "71b2df24-b794-4fc7-954e-3c26e76a2374",
+              "dataSourceId": "8095e802-4425-4053-87f7-0ea1acbee6d3",
+              "environmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.502Z",
+              "updatedAt": "2024-04-22T08:24:10.502Z"
+            },
+            {
+              "id": "62fd7067-bcd6-4916-8bc5-faf998dcca0f",
+              "dataSourceId": "8095e802-4425-4053-87f7-0ea1acbee6d3",
+              "environmentId": "dd83af10-f567-420b-b4b8-ba6ca8be6373",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.502Z",
+              "updatedAt": "2024-04-22T08:24:10.502Z"
+            },
+            {
+              "id": "0b21f044-c581-4998-9f2b-2a53727d59ba",
+              "dataSourceId": "2208afce-244b-430c-b2d8-670754a2b679",
+              "environmentId": "dd83af10-f567-420b-b4b8-ba6ca8be6373",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.506Z",
+              "updatedAt": "2024-04-22T08:24:10.506Z"
+            },
+            {
+              "id": "0acb2599-1e86-4728-a73e-4ccea30f6b1e",
+              "dataSourceId": "2208afce-244b-430c-b2d8-670754a2b679",
+              "environmentId": "bcb9ce3c-259d-4e04-9d4f-f776c5d9bf86",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.506Z",
+              "updatedAt": "2024-04-22T08:24:10.506Z"
+            },
+            {
+              "id": "ca2dc3d1-64cc-4e4b-9408-46d8f667468c",
+              "dataSourceId": "2208afce-244b-430c-b2d8-670754a2b679",
+              "environmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.506Z",
+              "updatedAt": "2024-04-22T08:24:10.506Z"
+            },
+            {
+              "id": "e85e8bbd-3766-48c9-ab7b-8ffb6e69ce0b",
+              "dataSourceId": "3baa3bb7-92f6-4b25-b33c-4d2c775cb932",
+              "environmentId": "bcb9ce3c-259d-4e04-9d4f-f776c5d9bf86",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.517Z",
+              "updatedAt": "2024-04-22T08:24:10.517Z"
+            },
+            {
+              "id": "800f3481-54ee-4b3f-a67c-667277e20676",
+              "dataSourceId": "3baa3bb7-92f6-4b25-b33c-4d2c775cb932",
+              "environmentId": "dd83af10-f567-420b-b4b8-ba6ca8be6373",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.517Z",
+              "updatedAt": "2024-04-22T08:24:10.517Z"
+            },
+            {
+              "id": "01ec2589-f15c-4605-bcff-9fd334693f51",
+              "dataSourceId": "3baa3bb7-92f6-4b25-b33c-4d2c775cb932",
+              "environmentId": "aeb1a3dc-6d0a-4deb-9738-745d574ed66c",
+              "options": null,
+              "createdAt": "2024-04-22T08:24:10.517Z",
+              "updatedAt": "2024-04-22T08:24:10.517Z"
+            }
+          ],
           "schemaDetails": {
             "multiPages": true,
             "multiEnv": true,
