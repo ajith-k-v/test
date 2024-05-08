@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-05-08T15:28:13.686Z",
           "editingVersion": {
-            "id": "a12fc5db-04c3-4b52-8b9a-8617a8367327",
-            "name": "v1",
+            "id": "0754c149-5161-43f0-befb-abb43f2d40c3",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -34,25 +34,70 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "f7ca16e9-864f-4c35-bc29-d5d55a49bc24",
+            "homePageId": "615d4090-74b5-4d14-955a-959a89c4e11a",
             "appId": "b1d30eb5-4f5a-4603-81ba-56dd0e798803",
             "currentEnvironmentId": "c4218b27-3473-42ca-945e-4e20e714ebcd",
             "promotedFrom": null,
-            "createdAt": "2024-05-08T15:28:13.697Z",
-            "updatedAt": "2024-05-08T15:28:13.686Z"
+            "createdAt": "2024-05-08T15:28:29.506Z",
+            "updatedAt": "2024-05-08T15:28:29.493Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "e0c3a81a-fd0b-421b-8e54-91b1de25a46f",
+              "name": "cora",
+              "type": "Text",
+              "pageId": "615d4090-74b5-4d14-955a-959a89c4e11a",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-05-08T15:28:29.493Z",
+              "updatedAt": "2024-05-08T15:28:29.493Z",
+              "layouts": [
+                {
+                  "id": "4d937346-2321-4150-8058-b9d37a6c4915",
+                  "type": "desktop",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "e0c3a81a-fd0b-421b-8e54-91b1de25a46f",
+                  "updatedAt": "2024-05-08T15:28:29.493Z"
+                },
+                {
+                  "id": "363fe752-04ce-4cba-af30-cd4be4f81246",
+                  "type": "mobile",
+                  "top": 240,
+                  "left": 23.25581395348837,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "e0c3a81a-fd0b-421b-8e54-91b1de25a46f",
+                  "updatedAt": "2024-05-08T15:28:29.493Z"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
-              "id": "f7ca16e9-864f-4c35-bc29-d5d55a49bc24",
+              "id": "615d4090-74b5-4d14-955a-959a89c4e11a",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-05-08T15:28:13.686Z",
-              "updatedAt": "2024-05-08T15:28:13.686Z",
-              "appVersionId": "a12fc5db-04c3-4b52-8b9a-8617a8367327"
+              "createdAt": "2024-05-08T15:28:29.493Z",
+              "updatedAt": "2024-05-08T15:28:29.493Z",
+              "appVersionId": "0754c149-5161-43f0-befb-abb43f2d40c3"
             }
           ],
           "events": [],
@@ -60,8 +105,8 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "a12fc5db-04c3-4b52-8b9a-8617a8367327",
-              "name": "v1",
+              "id": "0754c149-5161-43f0-befb-abb43f2d40c3",
+              "name": "v2",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -74,12 +119,12 @@
                 "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "f7ca16e9-864f-4c35-bc29-d5d55a49bc24",
+              "homePageId": "615d4090-74b5-4d14-955a-959a89c4e11a",
               "appId": "b1d30eb5-4f5a-4603-81ba-56dd0e798803",
               "currentEnvironmentId": "c4218b27-3473-42ca-945e-4e20e714ebcd",
               "promotedFrom": null,
-              "createdAt": "2024-05-08T15:28:13.697Z",
-              "updatedAt": "2024-05-08T15:28:13.686Z"
+              "createdAt": "2024-05-08T15:28:29.506Z",
+              "updatedAt": "2024-05-08T15:28:29.493Z"
             }
           ],
           "appEnvironments": [
