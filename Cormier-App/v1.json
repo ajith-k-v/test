@@ -4,23 +4,23 @@
     {
       "definition": {
         "appV2": {
-          "id": "8eb2dbe2-9021-47c6-a74f-d6529077ddc8",
+          "id": "0a9f9bc3-6d0a-440f-9594-255ace49148d",
           "type": "front-end",
           "name": "Cormier-App",
-          "slug": "8eb2dbe2-9021-47c6-a74f-d6529077ddc8",
+          "slug": "0a9f9bc3-6d0a-440f-9594-255ace49148d",
           "isPublic": null,
           "isMaintenanceOn": false,
-          "icon": "apps",
-          "organizationId": "db93da18-7f1f-49bb-8312-2ce357ca8bf4",
+          "icon": "layers",
+          "organizationId": "075bbd3b-b615-4a9f-a758-3f674e17f24c",
           "currentVersionId": null,
-          "userId": "3d3edadd-a8e0-4569-b86b-11fffeba6c59",
+          "userId": "fd42bacb-2302-44a4-ac5b-a5a0a233ca40",
           "workflowApiToken": null,
           "workflowEnabled": false,
-          "createdAt": "2024-03-15T09:09:33.714Z",
+          "createdAt": "2024-05-20T07:08:00.702Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-03-15T09:09:33.713Z",
+          "updatedAt": "2024-05-20T07:08:00.702Z",
           "editingVersion": {
-            "id": "fd19b3f5-3444-4ed0-b4d0-0164dd3ef4b3",
+            "id": "af2aba74-0d19-4cc5-b70d-41d2f6930ff9",
             "name": "v1",
             "definition": null,
             "globalSettings": {
@@ -30,28 +30,30 @@
               "canvasMaxWidthType": "%",
               "canvasMaxHeight": 2400,
               "canvasBackgroundColor": "#edeff5",
-              "backgroundFxQuery": ""
+              "backgroundFxQuery": "",
+              "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "4b319a3f-af4d-406c-8222-580845f028ee",
-            "appId": "8eb2dbe2-9021-47c6-a74f-d6529077ddc8",
-            "currentEnvironmentId": "d68da30c-61ba-4e0d-bc68-c7e2cf6c936f",
+            "homePageId": "ce8519bd-534a-4e0a-980a-00dcd721d858",
+            "appId": "0a9f9bc3-6d0a-440f-9594-255ace49148d",
+            "currentEnvironmentId": "3b1931a3-92c5-4d0a-945d-06c5579429bd",
             "promotedFrom": null,
-            "createdAt": "2024-03-15T09:09:33.734Z",
-            "updatedAt": "2024-03-15T09:09:33.713Z"
+            "createdAt": "2024-05-20T07:08:00.714Z",
+            "updatedAt": "2024-05-20T07:08:00.702Z"
           },
           "components": [],
           "pages": [
             {
-              "id": "4b319a3f-af4d-406c-8222-580845f028ee",
+              "id": "ce8519bd-534a-4e0a-980a-00dcd721d858",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-03-15T09:09:33.713Z",
-              "updatedAt": "2024-03-15T09:09:33.713Z",
-              "appVersionId": "fd19b3f5-3444-4ed0-b4d0-0164dd3ef4b3"
+              "createdAt": "2024-05-20T07:08:00.702Z",
+              "updatedAt": "2024-05-20T07:08:00.702Z",
+              "autoComputeLayout": true,
+              "appVersionId": "af2aba74-0d19-4cc5-b70d-41d2f6930ff9"
             }
           ],
           "events": [],
@@ -59,7 +61,7 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "fd19b3f5-3444-4ed0-b4d0-0164dd3ef4b3",
+              "id": "af2aba74-0d19-4cc5-b70d-41d2f6930ff9",
               "name": "v1",
               "definition": null,
               "globalSettings": {
@@ -69,47 +71,48 @@
                 "canvasMaxWidthType": "%",
                 "canvasMaxHeight": 2400,
                 "canvasBackgroundColor": "#edeff5",
-                "backgroundFxQuery": ""
+                "backgroundFxQuery": "",
+                "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "4b319a3f-af4d-406c-8222-580845f028ee",
-              "appId": "8eb2dbe2-9021-47c6-a74f-d6529077ddc8",
-              "currentEnvironmentId": "d68da30c-61ba-4e0d-bc68-c7e2cf6c936f",
+              "homePageId": "ce8519bd-534a-4e0a-980a-00dcd721d858",
+              "appId": "0a9f9bc3-6d0a-440f-9594-255ace49148d",
+              "currentEnvironmentId": "3b1931a3-92c5-4d0a-945d-06c5579429bd",
               "promotedFrom": null,
-              "createdAt": "2024-03-15T09:09:33.734Z",
-              "updatedAt": "2024-03-15T09:09:33.713Z"
+              "createdAt": "2024-05-20T07:08:00.714Z",
+              "updatedAt": "2024-05-20T07:08:00.702Z"
             }
           ],
           "appEnvironments": [
             {
-              "id": "d68da30c-61ba-4e0d-bc68-c7e2cf6c936f",
-              "organizationId": "db93da18-7f1f-49bb-8312-2ce357ca8bf4",
+              "id": "3b1931a3-92c5-4d0a-945d-06c5579429bd",
+              "organizationId": "075bbd3b-b615-4a9f-a758-3f674e17f24c",
               "name": "development",
               "isDefault": false,
               "priority": 1,
               "enabled": true,
-              "createdAt": "2024-03-15T07:43:26.729Z",
-              "updatedAt": "2024-03-15T07:43:26.729Z"
+              "createdAt": "2024-05-20T05:55:19.799Z",
+              "updatedAt": "2024-05-20T05:55:19.799Z"
             },
             {
-              "id": "612d1080-90af-4839-bd47-1923ce499478",
-              "organizationId": "db93da18-7f1f-49bb-8312-2ce357ca8bf4",
+              "id": "9da0dd64-c523-42a6-b32e-a109eca980d0",
+              "organizationId": "075bbd3b-b615-4a9f-a758-3f674e17f24c",
               "name": "staging",
               "isDefault": false,
               "priority": 2,
               "enabled": true,
-              "createdAt": "2024-03-15T07:43:26.729Z",
-              "updatedAt": "2024-03-15T07:43:26.729Z"
+              "createdAt": "2024-05-20T05:55:19.799Z",
+              "updatedAt": "2024-05-20T05:55:19.799Z"
             },
             {
-              "id": "79540962-1868-44a7-97e3-f7c7a01776f4",
-              "organizationId": "db93da18-7f1f-49bb-8312-2ce357ca8bf4",
+              "id": "bf53efbc-b331-49f6-a68a-37451d793712",
+              "organizationId": "075bbd3b-b615-4a9f-a758-3f674e17f24c",
               "name": "production",
               "isDefault": true,
               "priority": 3,
               "enabled": true,
-              "createdAt": "2024-03-15T07:43:26.729Z",
-              "updatedAt": "2024-03-15T07:43:26.729Z"
+              "createdAt": "2024-05-20T05:55:19.799Z",
+              "updatedAt": "2024-05-20T05:55:19.799Z"
             }
           ],
           "dataSourceOptions": [],
@@ -122,5 +125,5 @@
       }
     }
   ],
-  "tooljet_version": "2.32.0-ee2.15.16"
+  "tooljet_version": "2.42.0-ee2.17.0"
 }
