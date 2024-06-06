@@ -1,0 +1,129 @@
+{
+  "tooljet_database": [],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "c1d685af-bd73-4cd7-9b66-ef963a282fd7",
+          "type": "front-end",
+          "name": "Kling-App",
+          "slug": "c1d685af-bd73-4cd7-9b66-ef963a282fd7",
+          "isPublic": null,
+          "isMaintenanceOn": false,
+          "icon": "server",
+          "organizationId": "c5a3c650-c280-4dac-9587-75004b3ed17d",
+          "currentVersionId": null,
+          "userId": "e19a22ce-207f-4d6d-9289-623f9989c1a8",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2024-06-06T13:19:55.681Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2024-06-06T13:19:55.680Z",
+          "editingVersion": {
+            "id": "978069f8-edc9-4ee5-92dd-8dd525b4d542",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "showViewerNavigation": true,
+            "homePageId": "9cf7477c-3684-45ba-a3d2-4c7d3addd1a5",
+            "appId": "c1d685af-bd73-4cd7-9b66-ef963a282fd7",
+            "currentEnvironmentId": "e5e7360a-b698-497e-890e-d8cbaa74c2d3",
+            "promotedFrom": null,
+            "createdAt": "2024-06-06T13:19:55.693Z",
+            "updatedAt": "2024-06-06T13:19:55.680Z"
+          },
+          "components": [],
+          "pages": [
+            {
+              "id": "9cf7477c-3684-45ba-a3d2-4c7d3addd1a5",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "createdAt": "2024-06-06T13:19:55.680Z",
+              "updatedAt": "2024-06-06T13:19:55.680Z",
+              "autoComputeLayout": true,
+              "appVersionId": "978069f8-edc9-4ee5-92dd-8dd525b4d542"
+            }
+          ],
+          "events": [],
+          "dataQueries": [],
+          "dataSources": [],
+          "appVersions": [
+            {
+              "id": "978069f8-edc9-4ee5-92dd-8dd525b4d542",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "showViewerNavigation": true,
+              "homePageId": "9cf7477c-3684-45ba-a3d2-4c7d3addd1a5",
+              "appId": "c1d685af-bd73-4cd7-9b66-ef963a282fd7",
+              "currentEnvironmentId": "e5e7360a-b698-497e-890e-d8cbaa74c2d3",
+              "promotedFrom": null,
+              "createdAt": "2024-06-06T13:19:55.693Z",
+              "updatedAt": "2024-06-06T13:19:55.680Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "e5e7360a-b698-497e-890e-d8cbaa74c2d3",
+              "organizationId": "c5a3c650-c280-4dac-9587-75004b3ed17d",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-06-06T12:06:46.977Z",
+              "updatedAt": "2024-06-06T12:06:46.977Z"
+            },
+            {
+              "id": "2ca7a310-3314-4df0-9022-ac345f84749c",
+              "organizationId": "c5a3c650-c280-4dac-9587-75004b3ed17d",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-06-06T12:06:46.977Z",
+              "updatedAt": "2024-06-06T12:06:46.977Z"
+            },
+            {
+              "id": "b3d6baaf-ed0a-4699-bd18-9cdcc87ac8af",
+              "organizationId": "c5a3c650-c280-4dac-9587-75004b3ed17d",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-06-06T12:06:46.977Z",
+              "updatedAt": "2024-06-06T12:06:46.977Z"
+            }
+          ],
+          "dataSourceOptions": [],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "2.50.3.1"
+}
