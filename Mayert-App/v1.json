@@ -1,0 +1,129 @@
+{
+  "tooljet_database": [],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "290b1f04-7e2a-433b-b165-cb16067d1852",
+          "type": "front-end",
+          "name": "Mayert-App",
+          "slug": "290b1f04-7e2a-433b-b165-cb16067d1852",
+          "isPublic": null,
+          "isMaintenanceOn": false,
+          "icon": "sun",
+          "organizationId": "ed906553-06af-4151-88a9-2f67b8a901c8",
+          "currentVersionId": null,
+          "userId": "95066804-46c7-4823-8325-2be62b875fe1",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2024-06-10T08:26:09.365Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2024-06-10T08:26:09.365Z",
+          "editingVersion": {
+            "id": "211d7168-2187-4c93-8048-3b37e02f798d",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "showViewerNavigation": true,
+            "homePageId": "a66761a3-d92e-4588-86ad-a0151532c8de",
+            "appId": "290b1f04-7e2a-433b-b165-cb16067d1852",
+            "currentEnvironmentId": "ab08f8a0-24f0-4f3f-a78f-67bb9bfbbbfb",
+            "promotedFrom": null,
+            "createdAt": "2024-06-10T08:26:09.371Z",
+            "updatedAt": "2024-06-10T08:26:09.365Z"
+          },
+          "components": [],
+          "pages": [
+            {
+              "id": "a66761a3-d92e-4588-86ad-a0151532c8de",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "createdAt": "2024-06-10T08:26:09.365Z",
+              "updatedAt": "2024-06-10T08:26:09.365Z",
+              "autoComputeLayout": true,
+              "appVersionId": "211d7168-2187-4c93-8048-3b37e02f798d"
+            }
+          ],
+          "events": [],
+          "dataQueries": [],
+          "dataSources": [],
+          "appVersions": [
+            {
+              "id": "211d7168-2187-4c93-8048-3b37e02f798d",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "showViewerNavigation": true,
+              "homePageId": "a66761a3-d92e-4588-86ad-a0151532c8de",
+              "appId": "290b1f04-7e2a-433b-b165-cb16067d1852",
+              "currentEnvironmentId": "ab08f8a0-24f0-4f3f-a78f-67bb9bfbbbfb",
+              "promotedFrom": null,
+              "createdAt": "2024-06-10T08:26:09.371Z",
+              "updatedAt": "2024-06-10T08:26:09.365Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "ab08f8a0-24f0-4f3f-a78f-67bb9bfbbbfb",
+              "organizationId": "ed906553-06af-4151-88a9-2f67b8a901c8",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-06-10T06:56:22.604Z",
+              "updatedAt": "2024-06-10T06:56:22.604Z"
+            },
+            {
+              "id": "2be50330-4c0d-4c70-8120-159171262db8",
+              "organizationId": "ed906553-06af-4151-88a9-2f67b8a901c8",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-06-10T06:56:22.604Z",
+              "updatedAt": "2024-06-10T06:56:22.604Z"
+            },
+            {
+              "id": "e9945ea3-44c8-4633-bf37-f1b799854062",
+              "organizationId": "ed906553-06af-4151-88a9-2f67b8a901c8",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-06-10T06:56:22.604Z",
+              "updatedAt": "2024-06-10T06:56:22.604Z"
+            }
+          ],
+          "dataSourceOptions": [],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "2.60.0-ee2.18.5"
+}
