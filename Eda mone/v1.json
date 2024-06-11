@@ -39,9 +39,56 @@
             "currentEnvironmentId": "18027194-27e6-4907-8516-6558789309cc",
             "promotedFrom": null,
             "createdAt": "2024-06-11T11:42:27.725Z",
-            "updatedAt": "2024-06-11T11:42:27.691Z"
+            "updatedAt": "2024-06-11T11:42:46.050Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "0f88f72c-24fc-4384-8b41-16a10479af5a",
+              "name": "table1",
+              "type": "Table",
+              "pageId": "693a0b29-e877-4985-89a9-ea92e93ca918",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-06-11T11:42:46.037Z",
+              "updatedAt": "2024-06-11T11:42:46.037Z",
+              "layouts": [
+                {
+                  "id": "41bfe4d3-d93d-4d93-a7a4-89f6b1622638",
+                  "type": "desktop",
+                  "top": 70,
+                  "left": 4,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "0f88f72c-24fc-4384-8b41-16a10479af5a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-06-11T11:42:46.037Z"
+                },
+                {
+                  "id": "30e1532d-2d3f-4ce5-87bf-db5812007111",
+                  "type": "mobile",
+                  "top": 70,
+                  "left": 4,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "0f88f72c-24fc-4384-8b41-16a10479af5a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-06-11T11:42:46.037Z"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
               "id": "693a0b29-e877-4985-89a9-ea92e93ca918",
@@ -80,7 +127,7 @@
               "currentEnvironmentId": "18027194-27e6-4907-8516-6558789309cc",
               "promotedFrom": null,
               "createdAt": "2024-06-11T11:42:27.725Z",
-              "updatedAt": "2024-06-11T11:42:27.691Z"
+              "updatedAt": "2024-06-11T11:42:46.050Z"
             }
           ],
           "appEnvironments": [
