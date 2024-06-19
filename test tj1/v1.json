@@ -39,9 +39,102 @@
             "currentEnvironmentId": "257b92ff-1dc3-4126-8bdd-7af6c87ae178",
             "promotedFrom": null,
             "createdAt": "2024-06-19T10:11:27.716Z",
-            "updatedAt": "2024-06-19T10:11:27.694Z"
+            "updatedAt": "2024-06-19T10:11:41.027Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "d1c177f5-d52b-4e85-8ce0-109bfc320a27",
+              "name": "table1",
+              "type": "Table",
+              "pageId": "0dc6692b-7a7b-4991-b7ba-339b769028bf",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-06-19T10:11:35.283Z",
+              "updatedAt": "2024-06-19T10:11:37.833Z",
+              "layouts": [
+                {
+                  "id": "5def7ae6-ef67-4b2c-ba4c-131f39393c34",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 3,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "d1c177f5-d52b-4e85-8ce0-109bfc320a27",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-06-19T10:11:35.283Z"
+                },
+                {
+                  "id": "e29af8a9-d26a-4426-a49f-13b9a4193cae",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 1,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "d1c177f5-d52b-4e85-8ce0-109bfc320a27",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-06-19T10:11:37.833Z"
+                }
+              ]
+            },
+            {
+              "id": "bd484486-98aa-4641-a5d7-a2c9c1b6c3ea",
+              "name": "button1",
+              "type": "Button",
+              "pageId": "0dc6692b-7a7b-4991-b7ba-339b769028bf",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-06-19T10:11:41.005Z",
+              "updatedAt": "2024-06-19T10:11:41.005Z",
+              "layouts": [
+                {
+                  "id": "0aa5a4cb-1f30-4939-bb73-462989bbe274",
+                  "type": "desktop",
+                  "top": 390,
+                  "left": 37,
+                  "width": 3,
+                  "height": 30,
+                  "componentId": "bd484486-98aa-4641-a5d7-a2c9c1b6c3ea",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-06-19T10:11:41.005Z"
+                },
+                {
+                  "id": "4678ccf0-dbe6-4958-9bb8-3d9030af4c78",
+                  "type": "mobile",
+                  "top": 390,
+                  "left": 37,
+                  "width": 3,
+                  "height": 30,
+                  "componentId": "bd484486-98aa-4641-a5d7-a2c9c1b6c3ea",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-06-19T10:11:41.005Z"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
               "id": "0dc6692b-7a7b-4991-b7ba-339b769028bf",
@@ -80,7 +173,7 @@
               "currentEnvironmentId": "257b92ff-1dc3-4126-8bdd-7af6c87ae178",
               "promotedFrom": null,
               "createdAt": "2024-06-19T10:11:27.716Z",
-              "updatedAt": "2024-06-19T10:11:27.694Z"
+              "updatedAt": "2024-06-19T10:11:41.027Z"
             }
           ],
           "appEnvironments": [
