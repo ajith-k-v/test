@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-06-24T11:53:13.871Z",
           "editingVersion": {
-            "id": "ce004caf-5f81-4be2-bd98-6cf6084634ab",
-            "name": "v2",
+            "id": "3a1706a5-fac7-45a2-98d1-4dc1b370e109",
+            "name": "v3",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -34,21 +34,25 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "acc2ba7e-ed6b-4cf5-8a95-d4e64672ecfa",
+            "homePageId": "d7699b04-fcd9-430c-a6a9-4f0d21533244",
             "appId": "0bdc2a7b-8630-4dc9-93b5-822352ae9da4",
             "currentEnvironmentId": "b74140a8-9791-44cc-8ee5-42d3bd46684c",
             "promotedFrom": null,
-            "createdAt": "2024-06-24T11:53:23.186Z",
-            "updatedAt": "2024-06-24T11:53:23.181Z"
+            "createdAt": "2024-06-24T11:53:31.755Z",
+            "updatedAt": "2024-06-24T11:53:36.911Z"
           },
           "components": [
             {
-              "id": "b9855d01-1618-4954-8b10-4547b00cd6ea",
+              "id": "158bd2d5-86cf-42f3-bc6f-1c61693fd74e",
               "name": "rey",
               "type": "TextInput",
-              "pageId": "acc2ba7e-ed6b-4cf5-8a95-d4e64672ecfa",
+              "pageId": "d7699b04-fcd9-430c-a6a9-4f0d21533244",
               "parent": null,
-              "properties": {},
+              "properties": {
+                "value": {
+                  "value": "Git sync testing"
+                }
+              },
               "general": null,
               "styles": {},
               "generalStyles": null,
@@ -61,46 +65,46 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-06-24T11:53:23.181Z",
-              "updatedAt": "2024-06-24T11:53:23.181Z",
+              "createdAt": "2024-06-24T11:53:31.742Z",
+              "updatedAt": "2024-06-24T11:53:36.909Z",
               "layouts": [
                 {
-                  "id": "b16b77d3-e7ec-43f8-a433-f5f5533f2c55",
+                  "id": "15c1bbf1-09d3-4f4b-8e5c-5b4d56f008a5",
                   "type": "desktop",
                   "top": 240,
                   "left": 10,
                   "width": 10,
                   "height": 40,
-                  "componentId": "b9855d01-1618-4954-8b10-4547b00cd6ea",
+                  "componentId": "158bd2d5-86cf-42f3-bc6f-1c61693fd74e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2024-06-24T11:53:23.181Z"
+                  "updatedAt": "2024-06-24T11:53:31.742Z"
                 },
                 {
-                  "id": "5348700d-f91d-4105-9d3a-0fc0df63cc75",
+                  "id": "56140361-7b8c-47bf-8224-dc17b0b0f816",
                   "type": "mobile",
                   "top": 240,
                   "left": 10,
                   "width": 10,
                   "height": 40,
-                  "componentId": "b9855d01-1618-4954-8b10-4547b00cd6ea",
+                  "componentId": "158bd2d5-86cf-42f3-bc6f-1c61693fd74e",
                   "dimensionUnit": "count",
-                  "updatedAt": "2024-06-24T11:53:23.181Z"
+                  "updatedAt": "2024-06-24T11:53:31.742Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "acc2ba7e-ed6b-4cf5-8a95-d4e64672ecfa",
+              "id": "d7699b04-fcd9-430c-a6a9-4f0d21533244",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-06-24T11:53:23.181Z",
-              "updatedAt": "2024-06-24T11:53:23.181Z",
+              "createdAt": "2024-06-24T11:53:31.742Z",
+              "updatedAt": "2024-06-24T11:53:31.742Z",
               "autoComputeLayout": false,
-              "appVersionId": "ce004caf-5f81-4be2-bd98-6cf6084634ab"
+              "appVersionId": "3a1706a5-fac7-45a2-98d1-4dc1b370e109"
             }
           ],
           "events": [],
@@ -108,8 +112,8 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "ce004caf-5f81-4be2-bd98-6cf6084634ab",
-              "name": "v2",
+              "id": "3a1706a5-fac7-45a2-98d1-4dc1b370e109",
+              "name": "v3",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -122,12 +126,12 @@
                 "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "acc2ba7e-ed6b-4cf5-8a95-d4e64672ecfa",
+              "homePageId": "d7699b04-fcd9-430c-a6a9-4f0d21533244",
               "appId": "0bdc2a7b-8630-4dc9-93b5-822352ae9da4",
               "currentEnvironmentId": "b74140a8-9791-44cc-8ee5-42d3bd46684c",
               "promotedFrom": null,
-              "createdAt": "2024-06-24T11:53:23.186Z",
-              "updatedAt": "2024-06-24T11:53:23.181Z"
+              "createdAt": "2024-06-24T11:53:31.755Z",
+              "updatedAt": "2024-06-24T11:53:36.911Z"
             }
           ],
           "appEnvironments": [
