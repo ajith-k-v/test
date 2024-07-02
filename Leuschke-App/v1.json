@@ -4,23 +4,23 @@
     {
       "definition": {
         "appV2": {
-          "id": "abdac1e4-7eea-48a7-95c2-49f945ec8c7a",
+          "id": "65c8b47c-c991-497d-b38a-36fd66490d15",
           "type": "front-end",
           "name": "Leuschke-App",
-          "slug": "abdac1e4-7eea-48a7-95c2-49f945ec8c7a",
+          "slug": "65c8b47c-c991-497d-b38a-36fd66490d15",
           "isPublic": null,
           "isMaintenanceOn": false,
-          "icon": "shield",
-          "organizationId": "1bb9bd3e-7121-4aae-98ac-f6734f66a918",
+          "icon": "floppydisk",
+          "organizationId": "08531969-d4fd-4d65-bde5-352edd0ab190",
           "currentVersionId": null,
-          "userId": "fdbb5fff-8243-40f3-ad78-f754f3f4fc1a",
+          "userId": "1dcb7ac3-ff12-40f8-b7f8-c860d855fe0a",
           "workflowApiToken": null,
           "workflowEnabled": false,
-          "createdAt": "2024-04-26T08:05:03.101Z",
+          "createdAt": "2024-07-02T11:39:13.156Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-04-26T08:05:03.101Z",
+          "updatedAt": "2024-07-02T11:39:13.156Z",
           "editingVersion": {
-            "id": "29bf6c80-0083-4f77-a28a-dba43b8f7349",
+            "id": "8da7fe64-26a7-4868-80f7-b0c9f2b7086b",
             "name": "v1",
             "definition": null,
             "globalSettings": {
@@ -34,25 +34,26 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "dfd7f020-53dc-433e-bf87-bc9bd8d12e36",
-            "appId": "abdac1e4-7eea-48a7-95c2-49f945ec8c7a",
-            "currentEnvironmentId": "116e57ab-8eda-4d9d-8dfe-9a1090cef26d",
+            "homePageId": "ab76cce4-ef03-461d-92a1-f43036a0e874",
+            "appId": "65c8b47c-c991-497d-b38a-36fd66490d15",
+            "currentEnvironmentId": "6995065a-86ff-4011-ba22-879c4ca015b5",
             "promotedFrom": null,
-            "createdAt": "2024-04-26T08:05:03.120Z",
-            "updatedAt": "2024-04-26T08:05:03.101Z"
+            "createdAt": "2024-07-02T11:39:13.166Z",
+            "updatedAt": "2024-07-02T11:39:13.156Z"
           },
           "components": [],
           "pages": [
             {
-              "id": "dfd7f020-53dc-433e-bf87-bc9bd8d12e36",
+              "id": "ab76cce4-ef03-461d-92a1-f43036a0e874",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-04-26T08:05:03.101Z",
-              "updatedAt": "2024-04-26T08:05:03.101Z",
-              "appVersionId": "29bf6c80-0083-4f77-a28a-dba43b8f7349"
+              "createdAt": "2024-07-02T11:39:13.156Z",
+              "updatedAt": "2024-07-02T11:39:13.156Z",
+              "autoComputeLayout": true,
+              "appVersionId": "8da7fe64-26a7-4868-80f7-b0c9f2b7086b"
             }
           ],
           "events": [],
@@ -60,7 +61,7 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "29bf6c80-0083-4f77-a28a-dba43b8f7349",
+              "id": "8da7fe64-26a7-4868-80f7-b0c9f2b7086b",
               "name": "v1",
               "definition": null,
               "globalSettings": {
@@ -74,44 +75,44 @@
                 "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "dfd7f020-53dc-433e-bf87-bc9bd8d12e36",
-              "appId": "abdac1e4-7eea-48a7-95c2-49f945ec8c7a",
-              "currentEnvironmentId": "116e57ab-8eda-4d9d-8dfe-9a1090cef26d",
+              "homePageId": "ab76cce4-ef03-461d-92a1-f43036a0e874",
+              "appId": "65c8b47c-c991-497d-b38a-36fd66490d15",
+              "currentEnvironmentId": "6995065a-86ff-4011-ba22-879c4ca015b5",
               "promotedFrom": null,
-              "createdAt": "2024-04-26T08:05:03.120Z",
-              "updatedAt": "2024-04-26T08:05:03.101Z"
+              "createdAt": "2024-07-02T11:39:13.166Z",
+              "updatedAt": "2024-07-02T11:39:13.156Z"
             }
           ],
           "appEnvironments": [
             {
-              "id": "116e57ab-8eda-4d9d-8dfe-9a1090cef26d",
-              "organizationId": "1bb9bd3e-7121-4aae-98ac-f6734f66a918",
+              "id": "6995065a-86ff-4011-ba22-879c4ca015b5",
+              "organizationId": "08531969-d4fd-4d65-bde5-352edd0ab190",
               "name": "development",
               "isDefault": false,
               "priority": 1,
               "enabled": true,
-              "createdAt": "2024-04-26T06:28:12.660Z",
-              "updatedAt": "2024-04-26T06:28:12.660Z"
+              "createdAt": "2024-07-02T09:51:18.059Z",
+              "updatedAt": "2024-07-02T09:51:18.059Z"
             },
             {
-              "id": "e43a2e70-72dd-4018-b504-2efab6a31a68",
-              "organizationId": "1bb9bd3e-7121-4aae-98ac-f6734f66a918",
+              "id": "7056b0b5-903a-45d3-817c-2a86a930d25b",
+              "organizationId": "08531969-d4fd-4d65-bde5-352edd0ab190",
               "name": "staging",
               "isDefault": false,
               "priority": 2,
               "enabled": true,
-              "createdAt": "2024-04-26T06:28:12.660Z",
-              "updatedAt": "2024-04-26T06:28:12.660Z"
+              "createdAt": "2024-07-02T09:51:18.059Z",
+              "updatedAt": "2024-07-02T09:51:18.059Z"
             },
             {
-              "id": "1b961bb3-6c0d-441d-bb47-da03ea71f2ab",
-              "organizationId": "1bb9bd3e-7121-4aae-98ac-f6734f66a918",
+              "id": "8f41dbff-8983-4f06-9b2f-dfa6306529aa",
+              "organizationId": "08531969-d4fd-4d65-bde5-352edd0ab190",
               "name": "production",
               "isDefault": true,
               "priority": 3,
               "enabled": true,
-              "createdAt": "2024-04-26T06:28:12.660Z",
-              "updatedAt": "2024-04-26T06:28:12.660Z"
+              "createdAt": "2024-07-02T09:51:18.059Z",
+              "updatedAt": "2024-07-02T09:51:18.059Z"
             }
           ],
           "dataSourceOptions": [],
@@ -124,5 +125,5 @@
       }
     }
   ],
-  "tooljet_version": "2.36.0-ee2.15.25"
+  "tooljet_version": "2.62.0-ee2.20.0"
 }
