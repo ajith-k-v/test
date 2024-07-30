@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-07-30T09:43:30.850Z",
           "editingVersion": {
-            "id": "955288bf-6f44-4d36-9444-eaa856671acd",
-            "name": "v1",
+            "id": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -34,32 +34,83 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "c263fda7-13fc-4722-9f20-861bfd74daf3",
+            "homePageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
             "appId": "d7718839-3482-4559-b2f3-52cef3f0e10b",
             "currentEnvironmentId": "e8511ce7-a384-4683-9ae0-fcfc5e910b6f",
             "promotedFrom": null,
-            "createdAt": "2024-07-30T09:43:30.884Z",
-            "updatedAt": "2024-07-30T09:43:30.850Z"
+            "createdAt": "2024-07-30T09:46:01.049Z",
+            "updatedAt": "2024-07-30T09:46:01.020Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "111581fb-1834-4d92-a7ff-1abcc7bd0267",
+              "name": "image1",
+              "type": "Image",
+              "pageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
+              "parent": null,
+              "properties": {
+                "source": {
+                  "value": "{{queries.4c46909c-a6cb-4b88-9fb6-81a555df3a03.data.picture}}"
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-07-30T09:46:01.020Z",
+              "updatedAt": "2024-07-30T09:46:01.020Z",
+              "layouts": [
+                {
+                  "id": "66211e54-917f-4074-b3c4-28895ca2e490",
+                  "type": "desktop",
+                  "top": 70,
+                  "left": 16,
+                  "width": 3,
+                  "height": 100,
+                  "componentId": "111581fb-1834-4d92-a7ff-1abcc7bd0267",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-30T09:46:01.020Z"
+                },
+                {
+                  "id": "3cf31fe4-3908-4b9f-a989-f4c1414de9e5",
+                  "type": "mobile",
+                  "top": 70,
+                  "left": 16,
+                  "width": 3,
+                  "height": 100,
+                  "componentId": "111581fb-1834-4d92-a7ff-1abcc7bd0267",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-30T09:46:01.020Z"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
-              "id": "c263fda7-13fc-4722-9f20-861bfd74daf3",
+              "id": "add10845-dc89-438e-8265-0e59f6c6faf7",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-07-30T09:43:30.850Z",
-              "updatedAt": "2024-07-30T09:43:30.850Z",
-              "autoComputeLayout": true,
-              "appVersionId": "955288bf-6f44-4d36-9444-eaa856671acd"
+              "createdAt": "2024-07-30T09:46:01.020Z",
+              "updatedAt": "2024-07-30T09:46:01.020Z",
+              "autoComputeLayout": false,
+              "appVersionId": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4"
             }
           ],
           "events": [],
           "dataQueries": [
             {
-              "id": "653f3748-9862-4de7-82da-bfd7d18ded44",
+              "id": "4c46909c-a6cb-4b88-9fb6-81a555df3a03",
               "name": "restapi1",
               "options": {
                 "method": "get",
@@ -89,9 +140,9 @@
                 "enableTransformation": false
               },
               "dataSourceId": "a5c165f0-b672-4078-ab05-78fab3e16567",
-              "appVersionId": "955288bf-6f44-4d36-9444-eaa856671acd",
-              "createdAt": "2024-07-30T09:43:35.394Z",
-              "updatedAt": "2024-07-30T09:43:36.603Z"
+              "appVersionId": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4",
+              "createdAt": "2024-07-30T09:46:01.020Z",
+              "updatedAt": "2024-07-30T09:46:01.020Z"
             }
           ],
           "dataSources": [
@@ -110,8 +161,8 @@
           ],
           "appVersions": [
             {
-              "id": "955288bf-6f44-4d36-9444-eaa856671acd",
-              "name": "v1",
+              "id": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4",
+              "name": "v2",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -124,12 +175,12 @@
                 "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "c263fda7-13fc-4722-9f20-861bfd74daf3",
+              "homePageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
               "appId": "d7718839-3482-4559-b2f3-52cef3f0e10b",
               "currentEnvironmentId": "e8511ce7-a384-4683-9ae0-fcfc5e910b6f",
               "promotedFrom": null,
-              "createdAt": "2024-07-30T09:43:30.884Z",
-              "updatedAt": "2024-07-30T09:43:30.850Z"
+              "createdAt": "2024-07-30T09:46:01.049Z",
+              "updatedAt": "2024-07-30T09:46:01.020Z"
             }
           ],
           "appEnvironments": [
