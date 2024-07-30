@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-07-30T09:43:30.850Z",
           "editingVersion": {
-            "id": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4",
-            "name": "v2",
+            "id": "b1302e7d-02b5-43f3-ac92-9a3e845a898c",
+            "name": "v3",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -34,23 +34,23 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
+            "homePageId": "f13fbb01-2e4a-4223-be22-ece0b09c8321",
             "appId": "d7718839-3482-4559-b2f3-52cef3f0e10b",
             "currentEnvironmentId": "593d3b21-bca6-4a46-bcb2-1b111f9fe2bb",
             "promotedFrom": null,
-            "createdAt": "2024-07-30T09:46:01.049Z",
-            "updatedAt": "2024-07-30T09:52:16.649Z"
+            "createdAt": "2024-07-30T09:59:01.029Z",
+            "updatedAt": "2024-07-30T10:01:06.815Z"
           },
           "components": [
             {
-              "id": "111581fb-1834-4d92-a7ff-1abcc7bd0267",
+              "id": "00d34c3f-54f1-4051-9df2-ae02f8f729af",
               "name": "image1",
               "type": "Image",
-              "pageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
+              "pageId": "f13fbb01-2e4a-4223-be22-ece0b09c8321",
               "parent": null,
               "properties": {
                 "source": {
-                  "value": "{{queries.4c46909c-a6cb-4b88-9fb6-81a555df3a03.data.picture}}"
+                  "value": "{{queries.773ba076-ccd6-4e63-8a75-5f55e0341484.data.picture}}"
                 }
               },
               "general": null,
@@ -65,38 +65,38 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-07-30T09:46:01.020Z",
-              "updatedAt": "2024-07-30T09:46:01.020Z",
+              "createdAt": "2024-07-30T09:59:01.003Z",
+              "updatedAt": "2024-07-30T09:59:01.003Z",
               "layouts": [
                 {
-                  "id": "66211e54-917f-4074-b3c4-28895ca2e490",
+                  "id": "26eeae63-86bb-480c-8f5a-7552c0440be3",
                   "type": "desktop",
                   "top": 70,
                   "left": 16,
                   "width": 3,
                   "height": 100,
-                  "componentId": "111581fb-1834-4d92-a7ff-1abcc7bd0267",
+                  "componentId": "00d34c3f-54f1-4051-9df2-ae02f8f729af",
                   "dimensionUnit": "count",
-                  "updatedAt": "2024-07-30T09:46:01.020Z"
+                  "updatedAt": "2024-07-30T09:59:01.003Z"
                 },
                 {
-                  "id": "3cf31fe4-3908-4b9f-a989-f4c1414de9e5",
+                  "id": "191bbdfb-c63f-4603-9e31-a9bcc907139d",
                   "type": "mobile",
                   "top": 70,
                   "left": 16,
                   "width": 3,
                   "height": 100,
-                  "componentId": "111581fb-1834-4d92-a7ff-1abcc7bd0267",
+                  "componentId": "00d34c3f-54f1-4051-9df2-ae02f8f729af",
                   "dimensionUnit": "count",
-                  "updatedAt": "2024-07-30T09:46:01.020Z"
+                  "updatedAt": "2024-07-30T09:59:01.003Z"
                 }
               ]
             },
             {
-              "id": "58e75831-fd86-44ba-9e31-3be614dffb67",
+              "id": "c3c81802-d2ed-485a-98db-9515fd5d0738",
               "name": "image2",
               "type": "Image",
-              "pageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
+              "pageId": "f13fbb01-2e4a-4223-be22-ece0b09c8321",
               "parent": null,
               "properties": {
                 "source": {
@@ -115,52 +115,102 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-07-30T09:51:24.549Z",
-              "updatedAt": "2024-07-30T09:51:28.852Z",
+              "createdAt": "2024-07-30T09:59:01.003Z",
+              "updatedAt": "2024-07-30T09:59:01.003Z",
               "layouts": [
                 {
-                  "id": "b89411d1-d895-4d99-ba99-6b0a656c56ba",
+                  "id": "57746e40-a307-419e-9339-f4952a542e9b",
                   "type": "desktop",
                   "top": 140,
                   "left": 21,
                   "width": 3,
                   "height": 100,
-                  "componentId": "58e75831-fd86-44ba-9e31-3be614dffb67",
+                  "componentId": "c3c81802-d2ed-485a-98db-9515fd5d0738",
                   "dimensionUnit": "count",
-                  "updatedAt": "2024-07-30T09:51:24.549Z"
+                  "updatedAt": "2024-07-30T09:59:01.003Z"
                 },
                 {
-                  "id": "7aa54b8d-412b-4e83-8bd0-cedb2f6d605a",
+                  "id": "2c26c561-258c-47d7-aa8d-bdf5ac230ade",
                   "type": "mobile",
                   "top": 140,
                   "left": 21,
                   "width": 3,
                   "height": 100,
-                  "componentId": "58e75831-fd86-44ba-9e31-3be614dffb67",
+                  "componentId": "c3c81802-d2ed-485a-98db-9515fd5d0738",
                   "dimensionUnit": "count",
-                  "updatedAt": "2024-07-30T09:51:24.549Z"
+                  "updatedAt": "2024-07-30T09:59:01.003Z"
+                }
+              ]
+            },
+            {
+              "id": "157820ca-fcd8-40c5-ad73-5adf40473850",
+              "name": "image3",
+              "type": "Image",
+              "pageId": "f13fbb01-2e4a-4223-be22-ece0b09c8321",
+              "parent": null,
+              "properties": {
+                "source": {
+                  "value": "https://media.istockphoto.com/id/1335845017/photo/pink-blooming-lotus-close-up.jpg?s=1024x1024&w=is&k=20&c=cfd4sF8c16DfhB2FBwVcs5jE_Wk6xQy8e4bU4uuJD0I="
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-07-30T09:59:06.561Z",
+              "updatedAt": "2024-07-30T09:59:11.960Z",
+              "layouts": [
+                {
+                  "id": "d2a81cde-bccb-4c9b-b6ff-344bb0794146",
+                  "type": "desktop",
+                  "top": 110,
+                  "left": 30,
+                  "width": 3,
+                  "height": 100,
+                  "componentId": "157820ca-fcd8-40c5-ad73-5adf40473850",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-30T09:59:06.561Z"
+                },
+                {
+                  "id": "40f6d884-d08f-4e90-a27b-e83bda560b59",
+                  "type": "mobile",
+                  "top": 110,
+                  "left": 30,
+                  "width": 3,
+                  "height": 100,
+                  "componentId": "157820ca-fcd8-40c5-ad73-5adf40473850",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-30T09:59:06.561Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "add10845-dc89-438e-8265-0e59f6c6faf7",
+              "id": "f13fbb01-2e4a-4223-be22-ece0b09c8321",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-07-30T09:46:01.020Z",
-              "updatedAt": "2024-07-30T09:46:01.020Z",
+              "createdAt": "2024-07-30T09:59:01.003Z",
+              "updatedAt": "2024-07-30T09:59:01.003Z",
               "autoComputeLayout": false,
-              "appVersionId": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4"
+              "appVersionId": "b1302e7d-02b5-43f3-ac92-9a3e845a898c"
             }
           ],
           "events": [],
           "dataQueries": [
             {
-              "id": "4c46909c-a6cb-4b88-9fb6-81a555df3a03",
+              "id": "773ba076-ccd6-4e63-8a75-5f55e0341484",
               "name": "restapi1",
               "options": {
                 "method": "get",
@@ -190,9 +240,9 @@
                 "enableTransformation": false
               },
               "dataSourceId": "a5c165f0-b672-4078-ab05-78fab3e16567",
-              "appVersionId": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4",
-              "createdAt": "2024-07-30T09:46:01.020Z",
-              "updatedAt": "2024-07-30T09:46:01.020Z"
+              "appVersionId": "b1302e7d-02b5-43f3-ac92-9a3e845a898c",
+              "createdAt": "2024-07-30T09:59:01.003Z",
+              "updatedAt": "2024-07-30T09:59:19.749Z"
             }
           ],
           "dataSources": [
@@ -211,8 +261,8 @@
           ],
           "appVersions": [
             {
-              "id": "4b10fd0a-7322-40ef-a4ab-c15d0566f6c4",
-              "name": "v2",
+              "id": "b1302e7d-02b5-43f3-ac92-9a3e845a898c",
+              "name": "v3",
               "definition": null,
               "globalSettings": {
                 "hideHeader": false,
@@ -225,12 +275,12 @@
                 "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "add10845-dc89-438e-8265-0e59f6c6faf7",
+              "homePageId": "f13fbb01-2e4a-4223-be22-ece0b09c8321",
               "appId": "d7718839-3482-4559-b2f3-52cef3f0e10b",
               "currentEnvironmentId": "593d3b21-bca6-4a46-bcb2-1b111f9fe2bb",
               "promotedFrom": null,
-              "createdAt": "2024-07-30T09:46:01.049Z",
-              "updatedAt": "2024-07-30T09:52:16.649Z"
+              "createdAt": "2024-07-30T09:59:01.029Z",
+              "updatedAt": "2024-07-30T10:01:06.815Z"
             }
           ],
           "appEnvironments": [
@@ -266,6 +316,119 @@
             }
           ],
           "dataSourceOptions": [
+            {
+              "id": "555382c0-521a-499b-a370-281e37f173ed",
+              "dataSourceId": "a5c165f0-b672-4078-ab05-78fab3e16567",
+              "environmentId": "bc0ecd78-ec08-41a5-97f9-64dcf4030923",
+              "options": {
+                "url": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "auth_type": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "grant_type": {
+                  "value": "authorization_code",
+                  "encrypted": false
+                },
+                "add_token_to": {
+                  "value": "header",
+                  "encrypted": false
+                },
+                "header_prefix": {
+                  "value": "Bearer ",
+                  "encrypted": false
+                },
+                "access_token_url": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "client_id": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "client_secret": {
+                  "credential_id": "fc20dd42-0f99-4415-9323-97cbedc40a3a",
+                  "encrypted": true
+                },
+                "scopes": {
+                  "value": "read, write",
+                  "encrypted": false
+                },
+                "username": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "4d07404e-c549-4641-a3e3-ab9d65953cea",
+                  "encrypted": true
+                },
+                "bearer_token": {
+                  "credential_id": "56170909-ccd6-4e7a-b13c-77a8154cbcde",
+                  "encrypted": true
+                },
+                "auth_url": {
+                  "value": "",
+                  "encrypted": false
+                },
+                "client_auth": {
+                  "value": "header",
+                  "encrypted": false
+                },
+                "headers": {
+                  "value": [
+                    [
+                      "",
+                      ""
+                    ]
+                  ],
+                  "encrypted": false
+                },
+                "custom_query_params": {
+                  "value": [
+                    [
+                      "",
+                      ""
+                    ]
+                  ],
+                  "encrypted": false
+                },
+                "custom_auth_params": {
+                  "value": [
+                    [
+                      "",
+                      ""
+                    ]
+                  ],
+                  "encrypted": false
+                },
+                "access_token_custom_headers": {
+                  "value": [
+                    [
+                      "",
+                      ""
+                    ]
+                  ],
+                  "encrypted": false
+                },
+                "multiple_auth_enabled": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "retry_network_errors": {
+                  "value": true,
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-07-30T09:39:43.899Z",
+              "updatedAt": "2024-07-30T09:39:43.912Z"
+            },
             {
               "id": "32934cec-2f97-4e60-b2ac-c380389ea07d",
               "dataSourceId": "a5c165f0-b672-4078-ab05-78fab3e16567",
@@ -491,119 +654,6 @@
               },
               "createdAt": "2024-07-30T09:39:43.899Z",
               "updatedAt": "2024-07-30T09:39:43.924Z"
-            },
-            {
-              "id": "555382c0-521a-499b-a370-281e37f173ed",
-              "dataSourceId": "a5c165f0-b672-4078-ab05-78fab3e16567",
-              "environmentId": "bc0ecd78-ec08-41a5-97f9-64dcf4030923",
-              "options": {
-                "url": {
-                  "value": "",
-                  "encrypted": false
-                },
-                "auth_type": {
-                  "value": "none",
-                  "encrypted": false
-                },
-                "grant_type": {
-                  "value": "authorization_code",
-                  "encrypted": false
-                },
-                "add_token_to": {
-                  "value": "header",
-                  "encrypted": false
-                },
-                "header_prefix": {
-                  "value": "Bearer ",
-                  "encrypted": false
-                },
-                "access_token_url": {
-                  "value": "",
-                  "encrypted": false
-                },
-                "client_id": {
-                  "value": "",
-                  "encrypted": false
-                },
-                "client_secret": {
-                  "credential_id": "fc20dd42-0f99-4415-9323-97cbedc40a3a",
-                  "encrypted": true
-                },
-                "scopes": {
-                  "value": "read, write",
-                  "encrypted": false
-                },
-                "username": {
-                  "value": "",
-                  "encrypted": false
-                },
-                "password": {
-                  "credential_id": "4d07404e-c549-4641-a3e3-ab9d65953cea",
-                  "encrypted": true
-                },
-                "bearer_token": {
-                  "credential_id": "56170909-ccd6-4e7a-b13c-77a8154cbcde",
-                  "encrypted": true
-                },
-                "auth_url": {
-                  "value": "",
-                  "encrypted": false
-                },
-                "client_auth": {
-                  "value": "header",
-                  "encrypted": false
-                },
-                "headers": {
-                  "value": [
-                    [
-                      "",
-                      ""
-                    ]
-                  ],
-                  "encrypted": false
-                },
-                "custom_query_params": {
-                  "value": [
-                    [
-                      "",
-                      ""
-                    ]
-                  ],
-                  "encrypted": false
-                },
-                "custom_auth_params": {
-                  "value": [
-                    [
-                      "",
-                      ""
-                    ]
-                  ],
-                  "encrypted": false
-                },
-                "access_token_custom_headers": {
-                  "value": [
-                    [
-                      "",
-                      ""
-                    ]
-                  ],
-                  "encrypted": false
-                },
-                "multiple_auth_enabled": {
-                  "value": false,
-                  "encrypted": false
-                },
-                "ssl_certificate": {
-                  "value": "none",
-                  "encrypted": false
-                },
-                "retry_network_errors": {
-                  "value": true,
-                  "encrypted": false
-                }
-              },
-              "createdAt": "2024-07-30T09:39:43.899Z",
-              "updatedAt": "2024-07-30T09:39:43.912Z"
             }
           ],
           "schemaDetails": {
