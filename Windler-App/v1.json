@@ -4,23 +4,23 @@
     {
       "definition": {
         "appV2": {
-          "id": "7dfc6a54-a659-497b-a2ab-7ec75d7c1a20",
+          "id": "a8fe6cfb-1861-463b-8098-61f36ef3592d",
           "type": "front-end",
           "name": "Windler-App",
-          "slug": "7dfc6a54-a659-497b-a2ab-7ec75d7c1a20",
+          "slug": "a8fe6cfb-1861-463b-8098-61f36ef3592d",
           "isPublic": null,
           "isMaintenanceOn": false,
-          "icon": "folderupload",
-          "organizationId": "a661bc8f-bd8e-40d2-8134-3d3e012c174e",
+          "icon": "apps",
+          "organizationId": "20f5ce74-cb3a-4239-9709-74c9e82378d7",
           "currentVersionId": null,
-          "userId": "8a7f27fd-a96b-4807-bfbb-4cbc70eb60ec",
+          "userId": "8119aacb-43de-4e76-8268-c9fa78749c53",
           "workflowApiToken": null,
           "workflowEnabled": false,
-          "createdAt": "2024-07-29T12:56:24.469Z",
+          "createdAt": "2024-09-19T15:17:01.853Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-07-29T12:56:24.468Z",
+          "updatedAt": "2024-09-19T15:17:01.853Z",
           "editingVersion": {
-            "id": "7365f143-2e25-48a6-85fb-191763957e4f",
+            "id": "be1e60b8-b9f7-4c19-adcc-49efb5d5acf1",
             "name": "v1",
             "definition": null,
             "globalSettings": {
@@ -34,26 +34,26 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "64c25761-56f9-4dd3-98c0-7f540e123acb",
-            "appId": "7dfc6a54-a659-497b-a2ab-7ec75d7c1a20",
-            "currentEnvironmentId": "712b6635-7ade-418d-9abe-c2effeb15421",
+            "homePageId": "042a2755-0683-42f6-aea2-781a8ae77385",
+            "appId": "a8fe6cfb-1861-463b-8098-61f36ef3592d",
+            "currentEnvironmentId": "77492801-9362-44ad-9be4-454b6ba99d90",
             "promotedFrom": null,
-            "createdAt": "2024-07-29T12:56:24.485Z",
-            "updatedAt": "2024-07-29T12:56:24.468Z"
+            "createdAt": "2024-09-19T15:17:01.863Z",
+            "updatedAt": "2024-09-19T15:17:01.853Z"
           },
           "components": [],
           "pages": [
             {
-              "id": "64c25761-56f9-4dd3-98c0-7f540e123acb",
+              "id": "042a2755-0683-42f6-aea2-781a8ae77385",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
-              "createdAt": "2024-07-29T12:56:24.468Z",
-              "updatedAt": "2024-07-29T12:56:24.468Z",
+              "createdAt": "2024-09-19T15:17:01.853Z",
+              "updatedAt": "2024-09-19T15:17:01.853Z",
               "autoComputeLayout": true,
-              "appVersionId": "7365f143-2e25-48a6-85fb-191763957e4f"
+              "appVersionId": "be1e60b8-b9f7-4c19-adcc-49efb5d5acf1"
             }
           ],
           "events": [],
@@ -61,7 +61,7 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "7365f143-2e25-48a6-85fb-191763957e4f",
+              "id": "be1e60b8-b9f7-4c19-adcc-49efb5d5acf1",
               "name": "v1",
               "definition": null,
               "globalSettings": {
@@ -75,44 +75,44 @@
                 "appMode": "auto"
               },
               "showViewerNavigation": true,
-              "homePageId": "64c25761-56f9-4dd3-98c0-7f540e123acb",
-              "appId": "7dfc6a54-a659-497b-a2ab-7ec75d7c1a20",
-              "currentEnvironmentId": "712b6635-7ade-418d-9abe-c2effeb15421",
+              "homePageId": "042a2755-0683-42f6-aea2-781a8ae77385",
+              "appId": "a8fe6cfb-1861-463b-8098-61f36ef3592d",
+              "currentEnvironmentId": "77492801-9362-44ad-9be4-454b6ba99d90",
               "promotedFrom": null,
-              "createdAt": "2024-07-29T12:56:24.485Z",
-              "updatedAt": "2024-07-29T12:56:24.468Z"
+              "createdAt": "2024-09-19T15:17:01.863Z",
+              "updatedAt": "2024-09-19T15:17:01.853Z"
             }
           ],
           "appEnvironments": [
             {
-              "id": "712b6635-7ade-418d-9abe-c2effeb15421",
-              "organizationId": "a661bc8f-bd8e-40d2-8134-3d3e012c174e",
+              "id": "77492801-9362-44ad-9be4-454b6ba99d90",
+              "organizationId": "20f5ce74-cb3a-4239-9709-74c9e82378d7",
               "name": "development",
               "isDefault": false,
               "priority": 1,
               "enabled": true,
-              "createdAt": "2024-07-29T11:20:14.829Z",
-              "updatedAt": "2024-07-29T11:20:14.829Z"
+              "createdAt": "2024-09-19T13:33:05.536Z",
+              "updatedAt": "2024-09-19T13:33:05.536Z"
             },
             {
-              "id": "ab1a87ec-774d-4891-9097-5fad0aff005b",
-              "organizationId": "a661bc8f-bd8e-40d2-8134-3d3e012c174e",
+              "id": "6f7de207-2f01-4e83-a318-a3677d04d526",
+              "organizationId": "20f5ce74-cb3a-4239-9709-74c9e82378d7",
               "name": "staging",
               "isDefault": false,
               "priority": 2,
               "enabled": true,
-              "createdAt": "2024-07-29T11:20:14.829Z",
-              "updatedAt": "2024-07-29T11:20:14.829Z"
+              "createdAt": "2024-09-19T13:33:05.536Z",
+              "updatedAt": "2024-09-19T13:33:05.536Z"
             },
             {
-              "id": "d55c7488-5eab-42dc-a527-e1b47d63f2aa",
-              "organizationId": "a661bc8f-bd8e-40d2-8134-3d3e012c174e",
+              "id": "9c99ce07-bc65-4368-bf08-c13540d93161",
+              "organizationId": "20f5ce74-cb3a-4239-9709-74c9e82378d7",
               "name": "production",
               "isDefault": true,
               "priority": 3,
               "enabled": true,
-              "createdAt": "2024-07-29T11:20:14.829Z",
-              "updatedAt": "2024-07-29T11:20:14.829Z"
+              "createdAt": "2024-09-19T13:33:05.536Z",
+              "updatedAt": "2024-09-19T13:33:05.536Z"
             }
           ],
           "dataSourceOptions": [],
@@ -125,5 +125,5 @@
       }
     }
   ],
-  "tooljet_version": "2.50.9.22"
+  "tooljet_version": "2.50.9.41"
 }
